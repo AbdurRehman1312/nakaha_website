@@ -15,7 +15,7 @@ const Header = () => {
         <div className='flex gap-4 items-center justify-center'>
           <h1 className='text-white'>Want to make an appointment?</h1>
           <Link>
-            <Button name="Book Now" />
+            <Button name="Book Now" style="hover:bg-white hover:text-primary hover:border-primary text-white"/>
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Header = () => {
                   <NavLink
                     to={link.link}
                   >
-                    <Button name={link.name} style="bg-primary text-lg"/>
+                    <Button name={link.name} style="bg-white text-primary border-primary hover:bg-primary hover:text-white hover:border text-lg"/>
                   </NavLink>
                 </li>
               ))}
