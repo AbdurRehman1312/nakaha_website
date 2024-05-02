@@ -12,6 +12,9 @@
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #f3f3f3;
+}
 :root{
   --blue-color: #2f66aa;
   /* --blue-color: #5d81ad; */

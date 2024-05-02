@@ -24,12 +24,12 @@ const Header = () => {
           <Link>
             <Button
               name="Book Now"
-              style="hover:bg-white hover:text-primary hover:border-primary text-white"
+              style="hover:bg-third hover:text-primary hover:border-primary text-white"
             />
           </Link>
         </div>
       </div>
-      <header className="shadow-lg px-2 py-3 sticky top-[0px] bg-white z-50">
+      <header className="shadow px-2 py-3 sticky top-[0px] bg-third z-50">
         <div className="container m-auto lg:px-28">
           <div className="flex justify-between items-center">
             <div className="w-1/3 sm:w-auto">
@@ -48,7 +48,7 @@ const Header = () => {
                     <NavLink to={link.link}>
                       <Button
                         name={link.name}
-                        style="bg-white text-primary border-primary hover:bg-primary hover:text-white hover:border text-lg"
+                        style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-lg"
                       />
                     </NavLink>
                   </li>

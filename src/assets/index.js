@@ -12,3 +12,5 @@ export { default as insta } from "./insta.png";
 export { default as linkedin } from "./linkedin.png";
 export { default as tiktok } from "./tiktok.png";
 export { default as glassdoor } from "./glassdoor.png";
+export { default as herostyle } from "./herostyle.svg";
+export { default as aboutus } from "./aboutus.jpg";
