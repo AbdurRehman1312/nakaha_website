@@ -2,9 +2,35 @@ import React from "react";
 import * as images from "../assets";
 import { Link } from "react-router-dom";
 const Footer = () => {
+  const socialLinks = [
+    {
+      link: "https://twitter.com",
+      icon: images.twitter, // Assuming images.twitter is the correct path for the Twitter logo.
+    },
+    {
+      link: "https://facebook.com",
+      icon: images.fb, // Adjust accordingly if the property names in the images object are different.
+    },
+    {
+      link: "https://linkedin.com",
+      icon: images.linkedin,
+    },
+    {
+      link: "https://youtube.com",
+      icon: images.yt,
+    },
+    {
+      link: "https://tiktok.com",
+      icon: images.tiktok,
+    },
+    {
+      link: "https://glassdoor.com",
+      icon: images.glassdoor,
+    },
+  ];
   return (
     <footer className="bg-[#5d81ad] rounded-tl-[50px] lg:rounded-tl-[80px]">
-      <div className=" container flex flex-wrap gap-10 m-auto p-2 py-10">
+      <div className=" container flex flex-wrap gap-10 m-auto lg:px-28 px-2 py-10">
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3 flex-1">
           <img src={images.logo} alt="" className="w-[50%]" />
           <h2 className="text-slate-100 text-[14px]">898-0908-983</h2>
@@ -16,7 +42,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
-          <h2 className="text-2xl text-slate-100 font-bold">Primary Services</h2>
+          <h2 className="text-2xl text-slate-100 font-bold">
+            Primary Services
+          </h2>
           <Link to="/" className="text-slate-100 text-[14px]">
             Home Visits
           </Link>
@@ -96,8 +124,19 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="border-t border-white mx-4">
-
+      <div className="border-t border-slate-100 lg:mx-32 mx-4 pt-10 pb-2">
+        <div className="lg:w-[60%] m-auto flex justify-center gap-3 md:gap-10 flex-wrap">
+          {socialLinks.map((link) => (
+            <a
+              key={link.link}
+              href={link.link}
+              className="w-[40px] h-[40px] rounded-full border border-white flex justify-center items-center hover:opacity-70"
+            >
+              <img src={link.icon} alt={link.icon} className="w-[50%]" />
+            </a>
+          ))}
+        </div>
+        <h2 className="text-slate-100 text-base text-center mt-8">© 2024 Nakaha - All Rights Reserved</h2>
       </div>
     </footer>
   );

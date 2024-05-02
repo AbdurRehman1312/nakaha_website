@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
       <header className="shadow-lg px-2 py-3 sticky top-[0px] bg-white z-50">
-        <div className="container m-auto">
+        <div className="container m-auto lg:px-28">
           <div className="flex justify-between items-center">
             <div className="w-1/3 sm:w-auto">
               <NavLink to={"/"} onClick={closeMobileMenu}>

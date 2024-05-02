@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 
 const Home = () => {
   return <>
-  <div className='container m-auto p-2'>
+  <div className='container m-auto lg:px-28 px-2'>
   <Hero />
   </div>
   </>
