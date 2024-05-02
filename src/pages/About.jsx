@@ -6,8 +6,8 @@ const About = () => {
       <h1 className="text-6xl text-center mb-7 text-secondary font-poppins">
         ABOUT US
       </h1>
-      <div className="flex gap-7 mt-16">
-        <div className="w-[50%] shrink-0">
+      <div className="flex gap-7 mt-16 flex-col md:flex-row">
+        <div className="md:w-[50%] shrink-0">
           <img src={images.aboutus} alt="" className="rounded-3xl" />
         </div>
         <div className="flex flex-col gap-4">
