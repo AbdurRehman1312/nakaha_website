@@ -14,5 +14,52 @@
 
 :root{
   --blue-color: #2f66aa;
+  /* --blue-color: #5d81ad; */
   --red-color: #d11924; 
+  /* --red-color: #e46069;  */
+}
+.bg-gradient{
+  /* background: linear-gradient(90deg, rgba(191,202,228,1) 4%, rgba(70,94,151,1) 49%, rgba(26,52,113,1) 100%); */
+  background: rgb(191,202,228);
+background: linear-gradient(90deg, rgba(191,202,228,1) 0%, rgba(17,28,52,1) 46%);
+}
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.bg_sidebar{
+  background: rgb(93,129,173);
+background: linear-gradient(90deg, rgba(93,129,173,1) 20%, rgba(191,202,228,1) 88%);
+}
+::-webkit-scrollbar
+{
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border: 3px solid var(--blue-color);
+  background-color: var(--blue-color);
+  border-radius: 10px;
 }
