@@ -30,7 +30,7 @@ const Footer = () => {
   ];
   return (
     <footer className="bg-[#5d81ad] rounded-tl-[50px] lg:rounded-tl-[80px]">
-      <div className=" container flex flex-wrap gap-10 m-auto lg:px-28 px-2 py-10">
+      <div className=" container flex flex-wrap gap-10 m-auto px-2 py-10">
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3 flex-1">
           <img src={images.logo} alt="" className="w-[50%]" />
           <h2 className="text-slate-100 text-[14px]">898-0908-983</h2>
@@ -124,7 +124,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="border-t border-slate-100 lg:mx-32 mx-4 pt-10 pb-2">
+      <div className="border-t container m-auto border-slate-100 pt-10 pb-2">
         <div className="lg:w-[60%] m-auto flex justify-center gap-3 md:gap-10 flex-wrap">
           {socialLinks.map((link) => (
             <a

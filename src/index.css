@@ -66,3 +66,11 @@ background: linear-gradient(90deg, rgba(93,129,173,1) 20%, rgba(191,202,228,1) 8
   background-color: var(--blue-color);
   border-radius: 10px;
 }
+.custom_text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

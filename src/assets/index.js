@@ -14,3 +14,6 @@ export { default as tiktok } from "./tiktok.png";
 export { default as glassdoor } from "./glassdoor.png";
 export { default as herostyle } from "./herostyle.svg";
 export { default as aboutus } from "./aboutus.jpg";
+export { default as clock } from "./clock.png";
+export { default as next } from "./next.png";
+export { default as prev } from "./prev.png";
