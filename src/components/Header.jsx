@@ -4,12 +4,15 @@ import * as images from "../assets";
 import Button from "./Button";
 
 const Header = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0 });
+  };
   const [toggle, setToggle] = useState(false);
   let links = [
     { name: "Home", link: "/" },
     { name: "About Us", link: "/about" },
     { name: "Services", link: "/services" },
-    { name: "Blog", link: "/blog" },
+    { name: "Blog", link: "/blogs" },
   ];
 
   const closeMobileMenu = () => {
@@ -45,7 +48,7 @@ const Header = () => {
               <ul className="flex gap-7">
                 {links.map((link) => (
                   <li key={link.name}>
-                    <NavLink to={link.link}>
+                    <NavLink to={link.link} onClick={scrollToTop}>
                       <Button
                         name={link.name}
                         style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-lg"
