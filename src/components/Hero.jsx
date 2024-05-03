@@ -9,10 +9,10 @@ const Hero = () => {
   };
   return (
     <section>
-      <h1 className="text-secondary mt-8 lg:mt-28 text-8xl text-center font-poppins">
+      <h1 className="text-secondary mt-8 lg:mt-20 text-8xl text-center font-serif">
         Trust in our care
       </h1>
-      <div className="grid lg:grid-cols-4 gap-8 my-12 lg:my-28">
+      <div className="grid lg:grid-cols-4 gap-8 my-12 lg:my-20">
         <div className=" lg:col-span-2  relative w-full h-[220px]">
           <img
             src={images.hero1}

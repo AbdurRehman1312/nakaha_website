@@ -4,7 +4,7 @@ import WhatWeOffer from '../components/WhatWeOffer'
 
 const Home = () => {
   return <>
-  <div className='container m-auto lg:px-28 px-2'>
+  <div className='container m-auto px-2'>
   <Hero />
   <WhatWeOffer />
   </div>

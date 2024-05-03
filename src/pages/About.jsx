@@ -2,7 +2,7 @@ import React from "react";
 import * as images from "../assets";
 const About = () => {
   return (
-    <section className="container m-auto px-2 lg:px-28 my-10">
+    <section className="container m-auto px-2 my-10">
       <h1 className="text-6xl text-center mb-7 text-secondary font-poppins">
         ABOUT US
       </h1>
