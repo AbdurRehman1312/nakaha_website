@@ -4,7 +4,7 @@ import Button from "./Button";
 import { Link } from "react-router-dom";
 const BlogCard = ({img, name, desc, date, link}) => {
   return (
-    <div className="h-[370px] w-[100%] rounded-lg border border-gray-300 relative">
+    <div className="h-[420px] w-[100%] rounded-lg border border-gray-300 relative">
       <div className="flex flex-col gap-3 ">
         <div className="h-[150px]">
           <img
