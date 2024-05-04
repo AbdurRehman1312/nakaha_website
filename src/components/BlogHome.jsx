@@ -11,7 +11,7 @@ const BlogHome = () => {
     <>
     <section>
     <div className='text-center font-serif'>
-            <h1 className="text-xl md:text-2xl lg:text-3xl text-secondary">KEEP UP WITH CAREONE</h1>
+            <h1 className="text-xl md:text-2xl lg:text-3xl text-secondary">KEEP UP WITH NAKAHA</h1>
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Latest News & Blog Posts</h1>
         </div>
         <div className='flex flex-col md:flex-row gap-10 py-10'>
