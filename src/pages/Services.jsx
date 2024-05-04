@@ -74,7 +74,7 @@ const Services = () => {
     <>
       <Breadcrumb styles="bg_services" title="Our Services" />
       <section className="container px-2 m-auto my-14">
-        <div className="flex justify-center flex-wrap gap-10">
+        <div className="flex  justify-center flex-wrap gap-10">
           {tabsData.map((tab) => (
             <ServiceCard
               image={tab.image}

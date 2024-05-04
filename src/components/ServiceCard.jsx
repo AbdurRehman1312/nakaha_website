@@ -4,7 +4,7 @@ import Button from "./Button";
 import { Link } from "react-router-dom";
 const ServiceCard = ({image, name, content, link}) => {
   return (
-    <div className="h-[330px] w-[23%] rounded-lg border border-gray-300 relative">
+    <div className="h-[380px] w-full md:w-[45%] lg:w-[23%] rounded-lg border border-gray-300 relative">
       <div className="flex flex-col gap-3 ">
         <div className="h-[150px]">
           <img
