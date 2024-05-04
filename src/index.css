@@ -90,6 +90,3 @@ body {
     url("../src/assets/aboutus.jpg") no-repeat center/cover;
     
 }
-::-webkit-scrollbar {
-  display: none;
-}

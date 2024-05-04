@@ -8,9 +8,7 @@ function Layout() {
         <>
             <div >
                 <Header />
-                <div className='w-[80%] m-auto'>
                 <Outlet />
-                </div>  
                 <Footer />
             </div>
 

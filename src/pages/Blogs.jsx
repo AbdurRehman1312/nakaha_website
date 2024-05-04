@@ -62,7 +62,7 @@ const Blogs = () => {
           >
             <SwiperSlide>
               <BlogCard
-                img="aboutus"
+                img="hero2"
                 name="Hospital-acquired muscle weakness"
                 desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
                 date="28 May, 2024"
