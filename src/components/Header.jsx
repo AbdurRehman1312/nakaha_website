@@ -21,12 +21,12 @@ const Header = () => {
       <div className="bg-primary py-4 text-xl">
         <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
           <h1 className="text-white">Want to make an appointment?</h1>
-          <Link>
+          <a href="https://calendly.com/abdurrehmansaifi784" target="_blank">
             <Button
               name="Book Now"
               style="hover:bg-third hover:text-primary hover:border-primary text-white"
             />
-          </Link>
+          </a>
         </div>
       </div>
       <header className="shadow px-2 py-3 sticky top-[0px] bg-third z-50">
