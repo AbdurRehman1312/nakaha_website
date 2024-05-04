@@ -32,82 +32,81 @@ const tabsData = [
     name: "Managing medication",
     content:
       "Involves a thorough process of ensuring individuals use their medications safely, effectively, and appropriately. This encompasses a range of tasks, such as assessing medication needs, monitoring, and educating. The objective of medication management is to maximize the benefits of medication while minimizing potential risks. Through approaches like medication reconciliation and technological solutions, medication management strives to prevent medication errors, improve patient safety, and encourage medication adherence for improved health results",
-  },
-  {
-    id: 6,
-    name: "Bed Sores",
-    content:
-      "Preventing and managing bed sores is essential for overall well-being. Our wound care specialists provide personalized wound care services, focusing on prevention, treatment, and healing to ensure your comfort and health.",
-  },
-  {
-    id: 7,
-    name: "Physiotherapy",
-    content:
-      "Regain mobility, strength, and function with our expert physiotherapy sessions. Our skilled therapists will create personalized treatment plans tailored to your specific needs, helping you achieve your rehabilitation goals and improve your overall quality of life.",
-  },
-  {
-    id: 8,
-    name: "Telemedicine",
-    content:
-      "Embrace the future of healthcare with our telemedicine services. Access medical consultations and support remotely, allowing you to connect with healthcare professionals from wherever you are, at a time that suits you best.",
-  },
-  {
-    id: 9,
-    name: "Vascular Access (CVL/EJC/PC)",
-    content:
-      "Expert insertion and management of vascular access devices, ensuring safe and effective delivery of medical treatments and therapies.",
-  },
-  {
-    id: 10,
-    name: "Urinary Catheter Insertion/Removal",
-    content:
-      "Skilled assistance with urinary catheter insertion or removal, prioritizing your comfort and safety throughout the process.",
-  },
-  {
-    id: 11,
-    name: "Radiology",
-    content:
-      "State-of-the-art imaging services for comprehensive diagnostic evaluations and treatment planning.",
-  },
+  }
 ];
 
 const TabServices = () => {
   const [activeTab, setActiveTab] = useState(tabsData[0].id);
 
   return (
-    <div className="flex  mt-14">
-      <div className="flex flex-col items-start text-secondary gap-8 p-2 overflow-y-auto h-[61vh] tabs [&::-webkit-scrollbar]:hidden">
+    <>
+     <div className=" gap-5 mt-14 hidden md:flex">
+      <div className="flex flex-col items-start text-primary font-sans font-semibold gap-8 p-2 ">
         {tabsData.map((tab) => (
           <button
             key={tab.id}
-            className={`text-3xl py-3 px-5 rounded-2xl ${
+            className={`md:text-2xl lg:text-3xl py-3 px-5 rounded-2xl ${
               activeTab === tab.id
                 ? "bg-blue-100"
                 : "hover:bg-white hover:transition-all hover:ease-out hover:duration-300"
             }`}
             onClick={() => setActiveTab(tab.id)}
           >
-            {tab.id}. {tab.name}
+            {tab.name}
           </button>
         ))}
       </div>
-      <div className=" flex-1">
-        <p className="text-slate-700 text-3xl custom_text">
+      <div className="px-9 py-3 flex-1">
+        <p className="text-slate-700 md:text-2xl lg:text-3xl custom_text">
           {tabsData.find((tab) => tab.id === activeTab)?.content}
         </p>
         <div className="inline-flex mt-6">
           <NavLink>
             <Button
               name="Learn More"
-              style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-2xl"
+              style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-xl"
             />
           </NavLink>
-          <div>
+         
+        </div>
+        <div>
             <img src="" alt="" />
+          </div>
+      </div>
+    </div>
+    <div className="block md:hidden mt-5 p-4">
+        <div className="flex flex-col gap-4">
+          {tabsData.map((tab) => (
+            <button
+              key={tab.id}
+              className={`text-xl text-primary font-sans font-semibold  py-2 px-3 rounded-lg ${
+                activeTab === tab.id
+                  ? "bg-blue-100"
+                  : " hover:bg-white transition-all ease-out duration-300"
+              }`}
+              onClick={() => setActiveTab(tab.id)}
+            >
+              {tab.name}
+            </button>
+          ))}
+          <div className="mt-2">
+            <p className="text-lg text-gray-800 custom_text">
+              {tabsData.find((tab) => tab.id === activeTab)?.content}
+            </p>
+            <div className="inline-flex mt-6">
+          <NavLink>
+            <Button
+              name="Learn More"
+              style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-base"
+            />
+          </NavLink>
+         
+        </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
+   
   );
 };
 

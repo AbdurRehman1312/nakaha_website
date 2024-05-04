@@ -48,7 +48,7 @@ const Hero = () => {
           <img src={images.herostyle} alt="" className="w-[100%]" />
         </div>
         <div className=" w-[100%] flex flex-col gap-8">
-          <p className="text-slate-700 text-4xl font-sans">
+          <p className="text-slate-700 text-lg md:text-3xl lg:text-4xl font-sans">
             Come home to Nakaha, where your family is our family. At our
             family-owned and operated company, we bring care and community
             together to create a better way of aging.
