@@ -9,7 +9,7 @@ const Hero = () => {
   };
   return (
     <section>
-      <h1 className="text-secondary mt-8 lg:mt-20 text-8xl text-center font-serif">
+      <h1 className="text-secondary mt-8 lg:mt-20 lg:text-8xl text-5xl text-center font-serif">
         Trust in our care
       </h1>
       <div className="grid lg:grid-cols-4 gap-8 my-12 lg:my-20">
@@ -21,11 +21,11 @@ const Hero = () => {
           />
         </div>
         <div className="bg-[#e46069] text-gray-700 rounded-2xl p-3 flex flex-col justify-center items-center">
-          <h3 className="font-bold text-7xl">49</h3>
+          <h3 className="font-bold md:text-7xl text-3xl">49</h3>
           <p className="text-xl">years in business</p>
         </div>
         <div className="lg:row-start-2 bg-[#aecddd] text-gray-700 rounded-2xl p-3 flex flex-col justify-center items-center">
-          <h3 className="font-bold text-7xl">57</h3>
+          <h3 className="font-bold md:text-7xl text-3xl">57</h3>
           <p className="text-xl">locations across five states</p>
         </div>
         <div className="dark lg:col-span-2  relative w-full h-[220px]">

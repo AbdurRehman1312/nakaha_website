@@ -6,6 +6,7 @@ import Button from "./Button";
 const Header = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0 });
+    setToggle(false);
   };
   const [toggle, setToggle] = useState(false);
   let links = [
@@ -14,10 +15,6 @@ const Header = () => {
     { name: "Services", link: "/services" },
     { name: "Blog", link: "/blogs" },
   ];
-
-  const closeMobileMenu = () => {
-    setToggle(false);
-  };
 
   return (
     <>
@@ -36,7 +33,7 @@ const Header = () => {
         <div className="container m-auto">
           <div className="flex justify-between items-center">
             <div className="w-1/3 sm:w-auto">
-              <NavLink to={"/"} onClick={closeMobileMenu}>
+              <NavLink to={"/"} onClick={scrollToTop}>
                 <img
                   src={images.logo2}
                   alt=""
@@ -75,7 +72,7 @@ const Header = () => {
                   <ul className="list-none flex flex-col gap-3 items-center">
                     {links.map((link) => (
                       <li key={link.name}>
-                        <NavLink to={link.link} onClick={closeMobileMenu}>
+                        <NavLink to={link.link} onClick={scrollToTop}>
                           <Button
                             name={link.name}
                             style="bg-primary text-white border-primary hover:bg-primary hover:text-white hover:border text-lg"

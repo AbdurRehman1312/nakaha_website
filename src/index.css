@@ -79,8 +79,17 @@ body {
   line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
+.bg_blog {
+  height: 50vh;
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/hero1.jpg") no-repeat center/cover;
+}
+.bg_about {
+  height: 50vh;
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/aboutus.jpg") no-repeat center/cover;
+    
+}
+::-webkit-scrollbar {
+  display: none;
+}

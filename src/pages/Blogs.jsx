@@ -5,6 +5,7 @@ import * as images from "../assets";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import Breadcrumb from "../components/Breadcrumb";
 
 const Blogs = () => {
   const swiperRef = useRef(null);
@@ -25,11 +26,8 @@ const Blogs = () => {
 
   return (
     <>
-      <div className="bg_blog"></div>
+    <Breadcrumb styles="bg_blog" title="News And Blogs"  />
       <section className="container m-auto px-2 my-10 ">
-        <h1 className="text-secondary my-12 text-8xl text-center font-poppins">
-          News And Blogs
-        </h1>
         <div className="relative">
           <Swiper
             slidesPerView={4}
