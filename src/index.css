@@ -80,13 +80,14 @@ body {
   -webkit-box-orient: vertical;
 }
 .bg_blog {
-  height: 50vh;
   background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
     url("../src/assets/hero1.jpg") no-repeat center/cover;
 }
 .bg_about {
-  height: 50vh;
   background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
     url("../src/assets/aboutus.jpg") no-repeat center/cover;
-    
+}
+.bg_services {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/hero3.jpg") no-repeat center/cover;
 }
