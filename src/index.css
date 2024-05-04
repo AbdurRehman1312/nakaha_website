@@ -79,3 +79,8 @@ body {
   line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+
+
+  ::-webkit-scrollbar {
+    display: none;
+  }

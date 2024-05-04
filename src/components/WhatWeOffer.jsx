@@ -1,4 +1,6 @@
 import React from 'react'
+import TabServices from './TabServices'
+
 
 const WhatWeOffer = () => {
   return (
@@ -7,6 +9,7 @@ const WhatWeOffer = () => {
             <h1 className="text-3xl text-secondary">OUR SERVICES</h1>
             <h1 className="text-6xl text-secondary">What We Offer</h1>
         </div>
+        <TabServices />
     </section>
   )
 }
