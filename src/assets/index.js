@@ -17,3 +17,4 @@ export { default as aboutus } from "./aboutus.jpg";
 export { default as clock } from "./clock.png";
 export { default as next } from "./next.png";
 export { default as prev } from "./prev.png";
+export { default as bgblog } from "./bgblog.png";
