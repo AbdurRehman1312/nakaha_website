@@ -1,15 +1,17 @@
 import React from "react";
 import Button from "../components/Button";
 import Breadcrumb from "../components/Breadcrumb";
+import { useTranslation } from "react-i18next";
 
 const ContactUs = () => {
+  const {t} = useTranslation("global")
   return (
     <>
-      <Breadcrumb styles="bg_services" title="Contact Us" />
+      <Breadcrumb styles="bg_services" title={t("header.contactus")} />
       <section className="py-16">
         <div className="text-center font-serif">
           <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">
-            How can we help you?
+            {t("contactUs.heading")}
           </h1>
         </div>
         <div className="w-[90%] md:w-[70%] lg:w-[50%] m-auto mt-14">
@@ -20,7 +22,7 @@ const ContactUs = () => {
                   htmlFor="name"
                   className="block text-2xl font-medium text-gray-700 ml-2 mt-8"
                 >
-                  First Name
+                  {t("contactUs.fname")}
                 </label>
                 <input
                   type="text"
@@ -28,7 +30,7 @@ const ContactUs = () => {
                   name="name"
                   required
                   className="mt-2 w-full px-5 py-5 border border-gray-300 rounded-3xl shadow-sm focus:outline-none focus:ring-primary focus:border-primary  "
-                  placeholder="Enter First Name"
+                  placeholder={t("contactUs.fname")}
                 />
               </div>
               <div className="w-full">
@@ -36,7 +38,7 @@ const ContactUs = () => {
                   htmlFor="name"
                   className="block text-2xl font-medium text-gray-700 ml-2 mt-8"
                 >
-                  Last Name
+                  {t("contactUs.lname")}
                 </label>
                 <input
                   type="text"
@@ -44,7 +46,7 @@ const ContactUs = () => {
                   name="name"
                   required
                   className="mt-2 w-full px-5 py-5 border border-gray-300 rounded-3xl shadow-sm focus:outline-none focus:ring-primary focus:border-primary  "
-                  placeholder="Enter Last Name"
+                  placeholder={t("contactUs.lname")}
                 />
               </div>
             </div>
@@ -54,7 +56,7 @@ const ContactUs = () => {
                 htmlFor="mobile"
                 className="block text-2xl font-medium text-gray-700 ml-2 mt-8"
               >
-                Email
+                {t("contactUs.email")}
               </label>
               <input
                 type="email"
@@ -63,7 +65,7 @@ const ContactUs = () => {
                 required
                 pattern="\d{10}"
                 className="mt-2 block w-full px-5 py-5 border border-gray-300 rounded-3xl shadow-sm focus:outline-none focus:ring-primary focus:border-primary  "
-                placeholder="Enter Email"
+                placeholder={t("contactUs.email")}
               />
             </div>
 
@@ -72,7 +74,7 @@ const ContactUs = () => {
                 htmlFor="mobile"
                 className="block text-2xl font-medium text-gray-700 ml-2 mt-8"
               >
-                Mobile Number
+                {t("contactUs.no")}
               </label>
               <input
                 type="tel"
@@ -81,7 +83,7 @@ const ContactUs = () => {
                 required
                 pattern="\d{10}"
                 className="mt-2 block w-full px-5 py-5 border border-gray-300 rounded-3xl shadow-sm focus:outline-none focus:ring-primary focus:border-primary  "
-                placeholder="Enter Mobile Number"
+                placeholder={t("contactUs.no")}
               />
             </div>
 
@@ -90,7 +92,7 @@ const ContactUs = () => {
                 htmlFor="location"
                 className="block text-2xl font-medium text-gray-700 ml-2 mt-8"
               >
-                Location
+                {t("contactUs.loxation")}
               </label>
               <select
                 id="location"
@@ -98,9 +100,9 @@ const ContactUs = () => {
                 required
                 className="mt-2  w-full px-5 py-5 text-lg shadow-sm border-gray-400  focus:outline-none focus:ring-primary focus:border-primary rounded-3xl appearance-none"
               >
-                <option>Select location</option>
-                <option value="location1">Location 1</option>
-                <option value="location2">Location 2</option>
+                <option>{t("contactUs.slocation")}</option>
+                <option value="location1">{t("contactUs.location1")}</option>
+                <option value="location2">{t("contactUs.location2")}</option>
               </select>
             </div>
 
@@ -109,19 +111,19 @@ const ContactUs = () => {
                 htmlFor="service"
                 className="block text-2xl font-medium text-gray-700 ml-2 mt-8"
               >
-                Service Required
+                {t("contactUs.sreq")}
               </label>
               <input
                 type="text"
                 id="service"
                 name="service"
                 className="mt-2 block w-full px-5 py-5 border border-gray-300 rounded-3xl shadow-sm focus:outline-none focus:ring-primary focus:border-primary  "
-                placeholder="Home Visits"
+                placeholder={t("contactUs.splace")}
               />
             </div>
             <div className="mt-10 flex justify-center md:w-[30%] mx-auto">
               <Button
-                name="Submit"
+                name={t("contactUs.submit")}
                 style="bg-primary text-white hover:bg-third text-center hover:text-primary hover:border border-primary text-2xl"
               />
             </div>
