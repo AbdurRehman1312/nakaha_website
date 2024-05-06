@@ -63,7 +63,7 @@ const Services = () => {
   ];
   return (
     <>
-      <Breadcrumb styles="bg_services" title="Our Services" />
+      <Breadcrumb styles="bg_services" title={t("services.heading")} />
       <section className="container px-2 m-auto my-14">
         <div className="flex  justify-center flex-wrap gap-10">
           {tabsData.map((tab) => (

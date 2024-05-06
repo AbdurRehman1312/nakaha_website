@@ -47,15 +47,28 @@
     "blogCard3": {
         "name": "Stroke care"
     },
-    "aboutUs":{
+    "blogCard4": {
+        "name": "Concept of medication management"
+    },
+    "blogCard5": {
+        "name": "Oncology care"
+    },
+    "blogCard6": {
+        "name": "Nursing at home"
+    },
+    "blogCard7": {
+        "name": "Red Flags"
+    },
+    "aboutUs": {
         "about": "About Us",
         "welc": "Welcome to Nakaha, where your health is our priority.",
         "welcome": "Welcome to Nakaha Clinic. Our clinic offers a diverse range of services tailored to meet your individual needs, ensuring comprehensive support throughout your healthcare journey.",
         "focus": "Our focus on post-acute care emphasizes a seamless transition from hospital to home, ensuring optimal recovery and comfort for our patients. we offer a complete continuum of primary services like home visits, nursing care at home, nutrition consultation, physiotherapy, telemedicine.",
         "add": "In addition to primary services, we also provide holistic care packages such as oncology care, tracheostomy care, and stroke rehabilitation.",
-        "at": "At Nakaha, we understand that each patient is unique, which is why we prioritize personalized care plans tailored to your specific needs and preferences. Whether you're managing a chronic illness, recovering from surgery, or seeking rehabilitation services, our team is here to support you every step of the way. Our goal is to provide comprehensive support under one roof, making healthcare more accessible and convenient for you." 
+        "at": "At Nakaha, we understand that each patient is unique, which is why we prioritize personalized care plans tailored to your specific needs and preferences. Whether you're managing a chronic illness, recovering from surgery, or seeking rehabilitation services, our team is here to support you every step of the way. Our goal is to provide comprehensive support under one roof, making healthcare more accessible and convenient for you."
     },
-    "services":{
+    "services": {
+        "heading": "Our Services",
         "card1name": "Home Visits",
         "card1desc": "Experience the convenience of receiving medical care in the comfort of your own home. Our healthcare professionals will come to you, ensuring you get the attention and support you need without the need to travel.",
         "card2name": "Nursing Care at Home",
@@ -78,6 +91,9 @@
         "card10desc": "Skilled assistance with urinary catheter insertion or removal, prioritizing your comfort and safety throughout the process.",
         "card11name": "Radiology",
         "card11desc": "State-of-the-art imaging services for comprehensive diagnostic evaluations and treatment planning."
+    },
+    "blogs":{
+        "heading": "News And Blogs"
     },
     "contactUs": {
         "heading": "How can we help you?",
@@ -111,7 +127,7 @@
             "service9": "Radiology",
             "service10": "Nutrition"
         },
-        "col3":{
+        "col3": {
             "package": "Holistic Care Packages",
             "package1": "Oncology Care",
             "package2": "Tracheostomy Care",
@@ -120,7 +136,7 @@
             "package5": "Stroke Care",
             "package6": "Swallowing and Speech Rehabilitation"
         },
-        "col4":{
+        "col4": {
             "blogs": "Blogs",
             "blog1": "Hospital-acquired muscle weakness",
             "blog2": "Healthy Nutrition post discharge",
