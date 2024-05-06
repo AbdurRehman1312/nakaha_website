@@ -29,3 +29,4 @@ export { default as service8 } from "./service8.jpg";
 export { default as service9 } from "./service9.jpg";
 export { default as service10 } from "./service10.jpg";
 export { default as service11 } from "./service11.jpg";
+export { default as phone } from "./phone.png";

@@ -14,20 +14,26 @@ const Header = () => {
     { name: "About Us", link: "/about" },
     { name: "Services", link: "/services" },
     { name: "Blog", link: "/blogs" },
-    { name: "Contact Us", link: "/contact-us" }
+    { name: "Contact Us", link: "/contact-us" },
   ];
 
   return (
     <>
       <div className="bg-primary py-4 text-xl">
-        <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
-          <h1 className="text-white">Want to make an appointment?</h1>
-          <a href="https://calendly.com/abdurrehmansaifi784" target="_blank">
-            <Button
-              name="Book Now"
-              style="hover:bg-third hover:text-primary hover:border-primary text-white"
-            />
-          </a>
+        <div className="container m-auto px-2 flex flex-col md:flex-row gap-4 items-center justify-evenly">
+          <div className="flex flex-col md:flex-row gap-4 items-center">
+            <h1 className="text-white">Want to make an appointment?</h1>
+            <a href="https://calendly.com/abdurrehmansaifi784" target="_blank">
+              <Button
+                name="Book Now"
+                style="hover:bg-third hover:text-primary hover:border-primary text-white"
+              />
+            </a>
+          </div>
+          <div className="flex items-center justify-self-end gap-3">
+            <img src={images.phone} alt="" className="w-8 h-8" />
+            <p className="text-white">898-0908-983</p>
+          </div>
         </div>
       </div>
       <header className="shadow px-2 py-3 sticky top-[0px] bg-third z-50">
