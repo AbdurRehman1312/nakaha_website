@@ -2,7 +2,9 @@ import React from 'react'
 import * as images from "../assets";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 const ServiceCard = ({image, name, content, link}) => {
+  const {t} = useTranslation("global")
   return (
     <div className="h-[380px] w-full md:w-[45%] lg:w-[23%] rounded-lg border border-gray-300 relative">
       <div className="flex flex-col gap-3 ">
@@ -23,7 +25,7 @@ const ServiceCard = ({image, name, content, link}) => {
         </div>
         <Link to={link} className=" mt-1 px-2 absolute bottom-2 w-full">
           <Button
-            name="Read More"
+            name={t("blogHome.readmore")}
             style="bg-primary text-white hover:bg-third text-center hover:text-primary hover:border border-primary text-lg"
           />
         </Link>
