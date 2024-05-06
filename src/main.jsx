@@ -7,6 +7,7 @@ import './index.css'
 import About from './pages/About.jsx';
 import Blogs from './pages/Blogs.jsx';
 import Services from './pages/Services.jsx';
+import ContactUs from './pages/ContactUs.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
         <Route path= "about" element={<About />}/>
         <Route path= "blogs" element={<Blogs />}/>
         <Route path= "services" element={<Services />}/>
+        <Route path= "contact-us" element={<ContactUs />}/>
     </Route>
   )
 );
