@@ -113,6 +113,21 @@ const Header = () => {
                         </NavLink>
                       </li>
                     ))}
+                      <li>
+                  <select
+                    name=""
+                    id=""
+                    className="py-3 text-gray-600 border border-gray-600 px-4 focus:outline-none bg-transparent appearance-auto rounded-full"
+                    onChange={(e) => handleLang(e.target.value)}
+                  >
+                    <option value="en" selected>
+                      English
+                    </option>
+                    <option value="ar" >
+                      Arabic
+                    </option>
+                  </select>
+                </li>
                   </ul>
                 </div>
               </div>
