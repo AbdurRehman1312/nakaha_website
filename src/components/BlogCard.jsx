@@ -2,7 +2,9 @@ import React from "react";
 import * as images from "../assets";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 const BlogCard = ({img, name, desc, date, link}) => {
+  const {t} = useTranslation("global")
   return (
     <div className="h-[420px] w-[100%] rounded-lg border border-gray-300 relative">
       <div className="flex flex-col gap-3 ">
@@ -29,7 +31,7 @@ const BlogCard = ({img, name, desc, date, link}) => {
         </div>
         <Link to={link} className=" mt-1 px-2 absolute bottom-2 w-full">
           <Button
-            name="Read More"
+            name={t("blogHome.readmore")}
             style="bg-primary text-white hover:bg-third text-center hover:text-primary hover:border border-primary text-lg"
           />
         </Link>

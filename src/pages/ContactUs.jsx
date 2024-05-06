@@ -96,7 +96,7 @@ const ContactUs = () => {
                 id="location"
                 name="location"
                 required
-                className="mt-2  w-full px-5 py-5 text-lg shadow-sm border-gray-400  focus:outline-none focus:ring-primary focus:border-primary rounded-3xl"
+                className="mt-2  w-full px-5 py-5 text-lg shadow-sm border-gray-400  focus:outline-none focus:ring-primary focus:border-primary rounded-3xl appearance-none"
               >
                 <option>Select location</option>
                 <option value="location1">Location 1</option>

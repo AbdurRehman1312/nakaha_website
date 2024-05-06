@@ -1,7 +1,9 @@
 import React from "react";
 import * as images from "../assets";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+  const { t } = useTranslation("global");
   const socialLinks = [
     {
       link: "https://twitter.com",
@@ -35,92 +37,92 @@ const Footer = () => {
           <img src={images.logo} alt="" className="w-[50%]" />
           <h2 className="text-slate-100 text-[14px]">898-0908-983</h2>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Book An Appointment
+            {t("footer.col1.book")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Contact Us
-          </Link>
-        </div>
-        <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
-          <h2 className="text-2xl text-slate-100 font-bold">
-            Primary Services
-          </h2>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Home Visits
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Nursing Care at Home
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Nutrition
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Managing medication
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Bed Sores
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Physiotherapy
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Telemedicine
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Vascular Access (CVL/EJC/PC)
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Urinary Catheter Insertion/Removal
-          </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
-            Radiology
+          <Link to="/contactus" className="text-slate-100 text-[14px]">
+            {t("footer.col1.contactus")}
           </Link>
         </div>
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
           <h2 className="text-2xl text-slate-100 font-bold">
-            Holistic Care Packages
+            {t("footer.col2.services")}
           </h2>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Oncology Care
+            {t("footer.col2.service1")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Tracheostomy Care
+            {t("footer.col2.service2")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Post-Hospitalization Care
+            {t("footer.col2.service10")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Managing medication
+            {t("footer.col2.service3")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Stroke Care
+            {t("footer.col2.service4")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Swallowing and Speech Rehabilitation
+            {t("footer.col2.service5")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+            {t("footer.col2.service6")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+            {t("footer.col2.service7")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+            {t("footer.col2.service8")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+            {t("footer.col2.service9")}
           </Link>
         </div>
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
-          <h2 className="text-2xl text-slate-100 font-bold">Blogs</h2>
+          <h2 className="text-2xl text-slate-100 font-bold">
+          {t("footer.col3.package")}
+          </h2>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Hospital-acquired muscle weakness
+          {t("footer.col3.package1")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Healthy Nutrition post discharge
+          {t("footer.col3.package2")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Concept of medication management
+          {t("footer.col3.package3")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Stroke care
+          {t("footer.col3.package4")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Oncology care
+          {t("footer.col3.package5")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Nursing at home
+          {t("footer.col3.package6")}
+          </Link>
+        </div>
+        <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
+          <h2 className="text-2xl text-slate-100 font-bold">{t("footer.col4.blogs")}</h2>
+          <Link to="/" className="text-slate-100 text-[14px]">
+          {t("footer.col4.blog1")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-            Red Flags
+          {t("footer.col4.blog2")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+          {t("footer.col4.blog3")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+          {t("footer.col4.blog4")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+          {t("footer.col4.blog5")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+          {t("footer.col4.blog6")}
+          </Link>
+          <Link to="/" className="text-slate-100 text-[14px]">
+          {t("footer.col4.blog7")}
           </Link>
         </div>
       </div>
@@ -136,7 +138,9 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <h2 className="text-slate-100 text-base text-center mt-8">© 2024 Nakaha - All Rights Reserved</h2>
+        <h2 className="text-slate-100 text-base text-center mt-8">
+          {t("footer.copyright")}
+        </h2>
       </div>
     </footer>
   );

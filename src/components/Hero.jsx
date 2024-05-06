@@ -2,15 +2,18 @@ import React from "react";
 import * as images from "../assets";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation("global");
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0 });
   };
   return (
     <section>
       <h1 className="text-secondary mt-8 lg:mt-20 lg:text-8xl text-5xl text-center font-serif">
-        Trust in our care
+        {t("hero.trust")}
       </h1>
       <div className="grid lg:grid-cols-4 gap-8 my-12 lg:my-20">
         <div className=" lg:col-span-2  relative w-full h-[220px]">
@@ -22,11 +25,11 @@ const Hero = () => {
         </div>
         <div className="bg-[#e46069] text-gray-700 rounded-2xl p-3 flex flex-col justify-center items-center">
           <h3 className="font-bold md:text-7xl text-3xl">49</h3>
-          <p className="text-xl">years in business</p>
+          <p className="text-xl">{t("hero.business")}</p>
         </div>
         <div className="lg:row-start-2 bg-[#aecddd] text-gray-700 rounded-2xl p-3 flex flex-col justify-center items-center">
           <h3 className="font-bold md:text-7xl text-3xl">57</h3>
-          <p className="text-xl">locations across five states</p>
+          <p className="text-xl">{t("hero.location")}</p>
         </div>
         <div className="dark lg:col-span-2  relative w-full h-[220px]">
           <img
@@ -49,14 +52,12 @@ const Hero = () => {
         </div>
         <div className=" w-[100%] flex flex-col gap-8">
           <p className="text-slate-700 text-lg md:text-3xl lg:text-4xl font-sans">
-            Come home to Nakaha, where your family is our family. At our
-            family-owned and operated company, we bring care and community
-            together to create a better way of aging.
+            {t("hero.come")}
           </p>
           <Link to="about" onClick={scrollToTop}>
             {" "}
             <Button
-              name="Learn More"
+              name={t("hero.learn")}
               style="bg-primary text-white hover:bg-third text-center hover:text-primary hover:border border-primary text-lg w-[50%] lg:w-[20%]"
             />
           </Link>

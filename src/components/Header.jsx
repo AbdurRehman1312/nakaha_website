@@ -1,20 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import * as images from "../assets";
 import Button from "./Button";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const [t, i18n] = useTranslation("global");
+
+  const handleLang = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
+  useEffect(() => {
+    document.body.dir =i18n.dir();
+  }, [i18n, i18n.language]);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0 });
     setToggle(false);
   };
   const [toggle, setToggle] = useState(false);
   let links = [
-    { name: "Home", link: "/" },
-    { name: "About Us", link: "/about" },
-    { name: "Services", link: "/services" },
-    { name: "Blog", link: "/blogs" },
-    { name: "Contact Us", link: "/contact-us" },
+    { name: t("header.home"), link: "/" },
+    { name: t("header.aboutus"), link: "/about" },
+    { name: t("header.services"), link: "/services" },
+    { name: t("header.blog"), link: "/blogs" },
+    { name: t("header.contactus"), link: "/contact-us" },
   ];
 
   return (
@@ -22,10 +33,10 @@ const Header = () => {
       <div className="bg-primary py-4 text-xl">
         <div className="container m-auto px-2 flex flex-col md:flex-row gap-4 items-center justify-evenly">
           <div className="flex flex-col md:flex-row gap-4 items-center">
-            <h1 className="text-white">Want to make an appointment?</h1>
+            <h1 className="text-white">{t("header.appointment")}</h1>
             <a href="https://calendly.com/abdurrehmansaifi784" target="_blank">
               <Button
-                name="Book Now"
+                name={t("header.booknow")}
                 style="hover:bg-third hover:text-primary hover:border-primary text-white"
               />
             </a>
@@ -60,6 +71,21 @@ const Header = () => {
                     </NavLink>
                   </li>
                 ))}
+                <li>
+                  <select
+                    name=""
+                    id=""
+                    className="py-3 border border-primary px-4 focus:outline-none bg-transparent"
+                    onChange={(e) => handleLang(e.target.value)}
+                  >
+                    <option value="en" selected>
+                      English
+                    </option>
+                    <option value="ar">
+                      Arabic
+                    </option>
+                  </select>
+                </li>
               </ul>
             </div>
             <div className="lg:hidden flex justify-end items-center">
