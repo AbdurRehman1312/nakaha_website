@@ -92,7 +92,7 @@ const ContactUs = () => {
                 htmlFor="location"
                 className="block text-2xl font-medium text-gray-700 ml-2 mt-8"
               >
-                {t("contactUs.loxation")}
+                {t("contactUs.location")}
               </label>
               <select
                 id="location"

@@ -75,7 +75,7 @@ const Header = () => {
                   <select
                     name=""
                     id=""
-                    className="py-3 border border-primary px-4 focus:outline-none bg-transparent"
+                    className="py-3 text-primary border border-primary px-4 focus:outline-none bg-transparent appearance-auto rounded-full"
                     onChange={(e) => handleLang(e.target.value)}
                   >
                     <option value="en" selected>
