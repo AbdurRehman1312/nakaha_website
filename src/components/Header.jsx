@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    document.body.dir =i18n.dir();
+    document.body.dir = i18n.dir();
   }, [i18n, i18n.language]);
 
   const scrollToTop = () => {
@@ -81,9 +81,7 @@ const Header = () => {
                     <option value="en" selected>
                       English
                     </option>
-                    <option value="ar">
-                      Arabic
-                    </option>
+                    <option value="ar">Arabic</option>
                   </select>
                 </li>
               </ul>
@@ -113,21 +111,19 @@ const Header = () => {
                         </NavLink>
                       </li>
                     ))}
-                      <li>
-                  <select
-                    name=""
-                    id=""
-                    className="py-3 text-gray-600 border border-gray-600 px-4 focus:outline-none bg-transparent appearance-auto rounded-full"
-                    onChange={(e) => handleLang(e.target.value)}
-                  >
-                    <option value="en" selected>
-                      English
-                    </option>
-                    <option value="ar" >
-                      Arabic
-                    </option>
-                  </select>
-                </li>
+                    <li>
+                      <select
+                        name=""
+                        id=""
+                        className="py-3 text-gray-600 border border-gray-600 px-4 focus:outline-none bg-transparent appearance-auto rounded-full"
+                        onChange={(e) => handleLang(e.target.value)}
+                      >
+                        <option value="en" selected>
+                          English
+                        </option>
+                        <option value="ar">Arabic</option>
+                      </select>
+                    </li>
                   </ul>
                 </div>
               </div>

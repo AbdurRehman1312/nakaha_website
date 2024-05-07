@@ -93,7 +93,7 @@ const TabServices = () => {
             <div className="inline-flex mt-6">
               <NavLink>
                 <Button
-                  name="Learn More"
+                  name={t("tabServices.learn")}
                   style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-base"
                 />
               </NavLink>
