@@ -92,6 +92,47 @@ body {
     url("../src/assets/hero3.jpg") no-repeat center/cover;
 }
 
+.bg_service1 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service1.jpg") no-repeat center/cover;
+}
+.bg_service2 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service2.jpg") no-repeat center/cover;
+}
+.bg_service3 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service3.jpg") no-repeat center/cover;
+}
+.bg_service4 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service4.jpg") no-repeat center/cover;
+}
+.bg_service5 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service5.jpg") no-repeat center/cover;
+}
+.bg_service6 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service6.jpg") no-repeat center/cover;
+}
+.bg_service7 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service7.jpg") no-repeat center/cover;
+}
+.bg_service8 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service8.jpg") no-repeat center/cover;
+}
+.bg_service9 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service9.jpg") no-repeat center/cover;
+}
+.bg_service10 {
+  background: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url("../src/assets/service10.jpg") no-repeat center/cover;
+}
+
 select {
 	appearance: none;
 }

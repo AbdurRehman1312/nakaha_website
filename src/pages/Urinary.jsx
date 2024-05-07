@@ -13,9 +13,9 @@ import {
 const Urinary = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Urinary Catheter Insertion/Removal" />
+    <Breadcrumb styles="bg_service9" title="Urinary Catheter Insertion/Removal" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Skilled Insertion and Removal Assistance" para2="Skilled assistance with urinary catheter insertion or removal, prioritizing your comfort and safety throughout the process." />
+        <ServiceSection image={images.service9} paraH="Skilled Insertion and Removal Assistance" para2="Skilled assistance with urinary catheter insertion or removal, prioritizing your comfort and safety throughout the process." />
         <ServiceForm serviceName="Urinary Catheter Insertion/Removal"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

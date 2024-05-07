@@ -13,9 +13,9 @@ import {
 const Telemedicine = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Telemedicine" />
+    <Breadcrumb styles="bg_service7" title="Telemedicine" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Embracing Telemedicine for Remote Consultations" para2="Embrace the future of healthcare with our telemedicine services. Access medical consultations and support remotely, allowing you to connect with healthcare professionals from wherever you are, at a time that suits you best." />
+        <ServiceSection image={images.service7} paraH="Embracing Telemedicine for Remote Consultations" para2="Embrace the future of healthcare with our telemedicine services. Access medical consultations and support remotely, allowing you to connect with healthcare professionals from wherever you are, at a time that suits you best." />
         <ServiceForm serviceName="Telemedicine"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

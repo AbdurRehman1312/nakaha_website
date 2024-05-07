@@ -13,9 +13,9 @@ import {
 const BedSores = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Bed Sores" />
+    <Breadcrumb styles="bg_service5" title="Bed Sores" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Expert Bed Sore Management for Enhanced Well-Being" para2="Preventing and managing bed sores is essential for overall well-being. Our wound care specialists provide personalized wound care services, focusing on prevention, treatment, and healing to ensure your comfort and health." />
+        <ServiceSection image={images.service5} paraH="Expert Bed Sore Management for Enhanced Well-Being" para2="Preventing and managing bed sores is essential for overall well-being. Our wound care specialists provide personalized wound care services, focusing on prevention, treatment, and healing to ensure your comfort and health." />
         <ServiceForm serviceName="Bed Sores"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

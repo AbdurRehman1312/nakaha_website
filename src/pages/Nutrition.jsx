@@ -13,9 +13,9 @@ import {
 const Nutrition = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Nutrition" />
+    <Breadcrumb styles="bg_service3" title="Nutrition" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Personalized Nutrition Guidance from Our Experts" para2="Proper nutrition is vital for overall health and well-being, especially during recovery. Our nutrition experts will assess your dietary needs and provide personalized guidance and support to ensure you receive the nutrients necessary for optimal healing and recovery." />
+        <ServiceSection image={images.service3} paraH="Personalized Nutrition Guidance from Our Experts" para2="Proper nutrition is vital for overall health and well-being, especially during recovery. Our nutrition experts will assess your dietary needs and provide personalized guidance and support to ensure you receive the nutrients necessary for optimal healing and recovery." />
         <ServiceForm serviceName="Nutrition"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

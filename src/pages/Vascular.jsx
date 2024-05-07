@@ -13,9 +13,9 @@ import {
 const Vascular = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Vascular Access (CVL/EJC/PC)" />
+    <Breadcrumb styles="bg_service8" title="Vascular Access (CVL/EJC/PC)" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Ensuring Safe and Effective Medical Treatments" para2="Expert insertion and management of vascular access devices, ensuring safe and effective delivery of medical treatments and therapies." />
+        <ServiceSection image={images.service8} paraH="Ensuring Safe and Effective Medical Treatments" para2="Expert insertion and management of vascular access devices, ensuring safe and effective delivery of medical treatments and therapies." />
         <ServiceForm serviceName="Vascular"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

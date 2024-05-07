@@ -13,9 +13,9 @@ import {
 const Radiology = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Radiology" />
+    <Breadcrumb styles="bg_service10" title="Radiology" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Enhancing Diagnostic Precision and Treatment Planning" para2="State-of-the-art imaging services for comprehensive diagnostic evaluations and treatment planning." />
+        <ServiceSection image={images.service10} paraH="Enhancing Diagnostic Precision and Treatment Planning" para2="State-of-the-art imaging services for comprehensive diagnostic evaluations and treatment planning." />
         <ServiceForm serviceName="Radiology"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

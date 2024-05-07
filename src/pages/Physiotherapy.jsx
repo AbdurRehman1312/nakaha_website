@@ -13,9 +13,9 @@ import {
 const Physiotherapy = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Physiotherapy" />
+    <Breadcrumb styles="bg_service6" title="Physiotherapy" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Restoring Mobility and Enhancing Quality of Life" para2="Regain mobility, strength, and function with our expert physiotherapy sessions. Our skilled therapists will create personalized treatment plans tailored to your specific needs, helping you achieve your rehabilitation goals and improve your overall quality of life." />
+        <ServiceSection image={images.service6} paraH="Restoring Mobility and Enhancing Quality of Life" para2="Regain mobility, strength, and function with our expert physiotherapy sessions. Our skilled therapists will create personalized treatment plans tailored to your specific needs, helping you achieve your rehabilitation goals and improve your overall quality of life." />
         <ServiceForm serviceName="Physiotherapy"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

@@ -13,9 +13,9 @@ import {
 const ManageMedication = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Managing Medication" />
+    <Breadcrumb styles="bg_service4" title="Managing Medication" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Maximizing Medication Benefits" para2="Involves a thorough process of ensuring individuals use their medications safely, effectively, and appropriately. This encompasses a range of tasks, such as assessing medication needs, monitoring, and educating. The objective of medication management is to maximize the benefits of medication while minimizing potential risks. Through approaches like medication reconciliation and technological solutions, medication management strives to prevent medication errors, improve patient safety, and encourage medication adherence for improved health results." />
+        <ServiceSection image={images.service4} paraH="Maximizing Medication Benefits" para2="Involves a thorough process of ensuring individuals use their medications safely, effectively, and appropriately. This encompasses a range of tasks, such as assessing medication needs, monitoring, and educating. The objective of medication management is to maximize the benefits of medication while minimizing potential risks. Through approaches like medication reconciliation and technological solutions, medication management strives to prevent medication errors, improve patient safety, and encourage medication adherence for improved health results." />
         <ServiceForm serviceName="Managing Medication"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>

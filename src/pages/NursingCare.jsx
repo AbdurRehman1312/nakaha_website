@@ -12,9 +12,9 @@ import {
 const NursingCare = () => {
   return (
     <>
-    <Breadcrumb styles="bg_about" title="Nursing Care" />
+    <Breadcrumb styles="bg_service2" title="Nursing Care" />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.aboutus} paraH="Nursing Care at Home for Your Peace of Mind" para2="Rest assured knowing that you or your loved one will receive attentive and compassionate nursing care right at home. Our skilled nurses provide round-the-clock support, ensuring your health and well-being are prioritized at all times." />
+        <ServiceSection image={images.service2} paraH="Nursing Care at Home for Your Peace of Mind" para2="Rest assured knowing that you or your loved one will receive attentive and compassionate nursing care right at home. Our skilled nurses provide round-the-clock support, ensuring your health and well-being are prioritized at all times." />
         <ServiceForm serviceName="Nursing Care"  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>
