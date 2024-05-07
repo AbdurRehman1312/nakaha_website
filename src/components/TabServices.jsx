@@ -3,6 +3,12 @@ import Button from "./Button";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0 });
+  setToggle(false);
+};
+
 const TabServices = () => {
   const { t } = useTranslation("global");
 
@@ -11,26 +17,31 @@ const TabServices = () => {
       id: 1,
       name: t("tabServices.tab1Name"),
       content: t("tabServices.tab1desc"),
+      link: "/home-visit"
     },
     {
       id: 2,
       name: t("tabServices.tab2Name"),
       content: t("tabServices.tab2desc"),
+      link: "/nursing-care"
     },
     {
       id: 3,
       name: t("tabServices.tab3Name"),
       content: t("tabServices.tab3desc"),
+      link:"/nutrition"
     },
     {
       id: 4,
       name: t("tabServices.tab4Name"),
       content: t("tabServices.tab4desc"),
+      link:"/manage-medication"
     },
     {
       id: 5,
       name: t("tabServices.tab5Name"),
       content: t("tabServices.tab5desc"),
+      link:"/bed-sores"
     },
   ];
 
@@ -59,7 +70,7 @@ const TabServices = () => {
             {tabsData.find((tab) => tab.id === activeTab)?.content}
           </p>
           <div className="inline-flex mt-6">
-            <NavLink>
+            <NavLink to={tabsData.find((tab) => tab.id === activeTab)?.link} onClick={scrollToTop}>
               <Button
                 name={t("tabServices.learn")}
                 style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-xl"
@@ -91,7 +102,7 @@ const TabServices = () => {
               {tabsData.find((tab) => tab.id === activeTab)?.content}
             </p>
             <div className="inline-flex mt-6">
-              <NavLink>
+              <NavLink to={tabsData.find((tab) => tab.id === activeTab)?.link} onClick={scrollToTop}>
                 <Button
                   name={t("tabServices.learn")}
                   style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-base"

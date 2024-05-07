@@ -8,57 +8,62 @@ const Services = () => {
     {
       image: "service1",
       name: t("services.card1name"),
-      content:  t("services.card1desc")
+      content:  t("services.card1desc"),
+      link: "/home-visit"
     },
     {
       image: "service2",
       name: t("services.card2name"),
-      content:  t("services.card2desc")
+      content:  t("services.card2desc"),
+      link: "/nursing-care"
     },
     {
       image: "service3",
       name: t("services.card3name"),
-      content:  t("services.card3desc")
+      content:  t("services.card3desc"),
+      link:"/nutrition"
     },
     {
       image: "service4",
       name: t("services.card4name"),
-      content:  t("services.card4desc")
+      content:  t("services.card4desc"),
+      link:"/manage-medication"
     },
     {
       image: "service5",
       name: t("services.card5name"),
-      content:  t("services.card5desc")
+      content:  t("services.card5desc"),
+      link:"/bed-sores"
     },
     {
       image: "service6",
       name: t("services.card6name"),
-      content:  t("services.card6desc")
+      content:  t("services.card6desc"),
+      link:"/physiotherapy"
     },
     {
       image: "service7",
       name: t("services.card7name"),
-      content:  t("services.card7desc")
+      content:  t("services.card7desc"),
+      link:"/telemedicine"
     },
     {
       image: "service8",
       name: t("services.card8name"),
-      content:  t("services.card8desc")
+      content:  t("services.card8desc"),
+      link:"/vascular"
     },
     {
       image: "service9",
       name: t("services.card9name"),
-      content:  t("services.card9desc")
+      content:  t("services.card9desc"),
+      link:"/urinary"
     },
     {
       image: "service10",
       name: t("services.card10name"),
-      content:  t("services.card10desc")
-    },
-    {
-      image: "service11",
-      name: t("services.card11name"),
-      content:  t("services.card11desc")
+      content:  t("services.card10desc"),
+      link:"/radiology"
     },
   ];
   return (
@@ -71,6 +76,7 @@ const Services = () => {
               image={tab.image}
               name={tab.name}
               content={tab.content}
+              link = {tab.link}
             />
           ))}
         </div>

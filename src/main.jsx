@@ -17,6 +17,16 @@ import { I18nextProvider } from "react-i18next";
 import global_en from "./translations/en/global.json";
 import global_ar from "./translations/ar/global.json";
 import i18next from "i18next";
+import HomeVisit from "./pages/HomeVisit.jsx";
+import NursingCare from "./pages/NursingCare.jsx";
+import Nutrition from "./pages/Nutrition.jsx";
+import ManageMedication from "./pages/ManageMedication.jsx";
+import BedSores from "./pages/BedSores.jsx";
+import Physiotherapy from "./pages/Physiotherapy.jsx";
+import Telemedicine from "./pages/Telemedicine.jsx";
+import Vascular from "./pages/Vascular.jsx";
+import Urinary from "./pages/Urinary.jsx";
+import Radiology from "./pages/Radiology.jsx";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -39,6 +49,16 @@ const router = createBrowserRouter(
       <Route path="blogs" element={<Blogs />} />
       <Route path="services" element={<Services />} />
       <Route path="contact-us" element={<ContactUs />} />
+      <Route path="home-visit" element={<HomeVisit />} />
+      <Route path="nursing-care" element={<NursingCare />} />
+      <Route path="nutrition" element={<Nutrition />} />
+      <Route path="manage-medication" element={<ManageMedication />} />
+      <Route path="bed-sores" element={<BedSores />} />
+      <Route path="physiotherapy" element={<Physiotherapy />} />
+      <Route path="telemedicine" element={<Telemedicine />} />
+      <Route path="vascular" element={<Vascular />} />
+      <Route path="urinary" element={<Urinary/>} />
+      <Route path="radiology" element={<Radiology/>} />
     </Route>
   )
 );
