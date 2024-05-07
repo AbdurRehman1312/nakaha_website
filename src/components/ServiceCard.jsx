@@ -1,13 +1,12 @@
 import React from 'react'
 import * as images from "../assets";
 import Button from "./Button";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0 });
-  setToggle(false);
 };
 
 const ServiceCard = ({image, name, content, link}) => {
@@ -30,12 +29,12 @@ const ServiceCard = ({image, name, content, link}) => {
             {content}
           </p>
         </div>
-        <NavLink to={link} className=" mt-1 px-2 absolute bottom-2 w-full" onClick={scrollToTop}>
+        <Link to={link} className=" mt-1 px-2 absolute bottom-2 w-full" onClick={scrollToTop}>
           <Button
             name={t("blogHome.readmore")}
             style="bg-primary text-white hover:bg-third text-center hover:text-primary hover:border border-primary text-lg"
           />
-        </NavLink>
+        </Link>
       </div>
     </div>
   )

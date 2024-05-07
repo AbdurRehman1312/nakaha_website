@@ -1,10 +1,12 @@
 import React from 'react'
 import Button from "../components/Button";
+import { useTranslation } from 'react-i18next';
 const ServiceForm = ({serviceName}) => {
+    const {t} = useTranslation("global")
   return (
     <section className='py-20'>
     <div className='text-center font-serif'>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Begin your pain relief journey today!</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">{t("contactUs.begin")}</h1>
     </div>
     <div className="w-[90%] md:w-[70%] lg:w-[50%] m-auto mt-14">
         <form >
