@@ -81,7 +81,7 @@ const Header = () => {
                     <option value="en" selected>
                       English
                     </option>
-                    <option value="ar">Arabic</option>
+                    <option value="ar">{t("header.arabic")}</option>
                   </select>
                 </li>
               </ul>

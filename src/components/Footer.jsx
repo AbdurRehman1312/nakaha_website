@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation("global");
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0 });
+  };
   const socialLinks = [
     {
       link: "https://twitter.com",
@@ -47,34 +50,34 @@ const Footer = () => {
           <h2 className="text-2xl text-slate-100 font-bold">
             {t("footer.col2.services")}
           </h2>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/home-visit" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service1")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/nursing-care" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service2")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/nutrition" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service10")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/manage-medication" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service3")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/bed-sores" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service4")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/physiotherapy" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service5")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/telemedicine" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service6")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/vascular" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service7")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/urinary" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service8")}
           </Link>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/radiology" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col2.service9")}
           </Link>
         </div>

@@ -9,14 +9,16 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { useTranslation } from 'react-i18next';
 
 const Physiotherapy = () => {
+    const {t} = useTranslation("global")
   return (
     <>
-    <Breadcrumb styles="bg_service6" title="Physiotherapy" />
+    <Breadcrumb styles="bg_service6" title={t("services.card6name")} />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.service6} paraH="Restoring Mobility and Enhancing Quality of Life" para2="Regain mobility, strength, and function with our expert physiotherapy sessions. Our skilled therapists will create personalized treatment plans tailored to your specific needs, helping you achieve your rehabilitation goals and improve your overall quality of life." />
-        <ServiceForm serviceName="Physiotherapy"  />
+        <ServiceSection image={images.service6} paraH={t("services.parah6")} para2={t("services.card6desc")} />
+        <ServiceForm serviceName={t("services.card6name")}  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>

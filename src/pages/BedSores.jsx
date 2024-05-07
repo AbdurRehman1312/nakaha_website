@@ -9,14 +9,16 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { useTranslation } from 'react-i18next';
 
 const BedSores = () => {
+    const {t} = useTranslation("global");
   return (
     <>
-    <Breadcrumb styles="bg_service5" title="Bed Sores" />
+    <Breadcrumb styles="bg_service5" title={t("services.card5name")} />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.service5} paraH="Expert Bed Sore Management for Enhanced Well-Being" para2="Preventing and managing bed sores is essential for overall well-being. Our wound care specialists provide personalized wound care services, focusing on prevention, treatment, and healing to ensure your comfort and health." />
-        <ServiceForm serviceName="Bed Sores"  />
+        <ServiceSection image={images.service5} paraH={t("services.parah5")} para2={t("services.card5desc")} />
+        <ServiceForm serviceName={t("services.card5name")}  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>

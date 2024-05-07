@@ -15,31 +15,31 @@ const HomeVisit = () => {
     const {t} = useTranslation("global")
     return (
         <>
-            <Breadcrumb styles="bg_service1" title={t("tabServices.tab1Name")} />
+            <Breadcrumb styles="bg_service1" title={t("services.card1name")} />
             <section className="container m-auto px-2 my-10">
-                <ServiceSection image={images.service1} paraH={t("services.parah")} para2={t("services.card1desc")} />
+                <ServiceSection image={images.service1} paraH={t("services.parah1")} para2={t("services.card1desc")} />
                 <ServiceForm serviceName={t("tabServices.tab1Name")} />
                 <div className='pt-12 pb-16'>
                     <div className='text-center font-serif'>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">{t("eachService.faq")}</h1>
                     </div>
                     <Accordion type="single" collapsible className='mt-16'>
                         <AccordionItem value="item-1">
-                            <AccordionTrigger>What type of medical care can I receive at home?</AccordionTrigger>
+                            <AccordionTrigger>{t("eachService.homevisit.faq1")}</AccordionTrigger>
                             <AccordionContent>
-                            Our healthcare professionals provide a range of medical services, including routine check-ups, medication management, wound care, and more, all in the comfort of your home.
+                            {t("eachService.homevisit.ans1")}
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
-                            <AccordionTrigger> How do I schedule a home healthcare visit?</AccordionTrigger>
+                            <AccordionTrigger>{t("eachService.homevisit.faq2")}</AccordionTrigger>
                             <AccordionContent>
-                            Scheduling a visit is easy! Simply call our office or use our online booking system to choose a convenient date and time for our healthcare professionals to visit you at home.
+                            {t("eachService.homevisit.ans2")}
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
-                            <AccordionTrigger> Are your healthcare professionals qualified and licensed?</AccordionTrigger>
+                            <AccordionTrigger>{t("eachService.homevisit.faq3")}</AccordionTrigger>
                             <AccordionContent>
-                            Yes, all our healthcare professionals are highly qualified, licensed, and experienced in providing home healthcare services. You can trust in their expertise and dedication to your well-being.
+                            {t("eachService.homevisit.ans3")}
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>

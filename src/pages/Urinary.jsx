@@ -9,14 +9,16 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { useTranslation } from 'react-i18next';
 
 const Urinary = () => {
+    const {t} = useTranslation("global")
   return (
     <>
-    <Breadcrumb styles="bg_service9" title="Urinary Catheter Insertion/Removal" />
+    <Breadcrumb styles="bg_service9" title={t("services.card9name")} />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.service9} paraH="Skilled Insertion and Removal Assistance" para2="Skilled assistance with urinary catheter insertion or removal, prioritizing your comfort and safety throughout the process." />
-        <ServiceForm serviceName="Urinary Catheter Insertion/Removal"  />
+        <ServiceSection image={images.service9} paraH={t("services.parah9")} para2={t("services.card9desc")} />
+        <ServiceForm serviceName={t("services.card9name")}  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>

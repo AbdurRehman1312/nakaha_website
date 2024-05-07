@@ -9,14 +9,16 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { useTranslation } from 'react-i18next';
 
 const Nutrition = () => {
+    const {t} = useTranslation("global")
   return (
     <>
-    <Breadcrumb styles="bg_service3" title="Nutrition" />
+    <Breadcrumb styles="bg_service3" title={t("services.card3name")} />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.service3} paraH="Personalized Nutrition Guidance from Our Experts" para2="Proper nutrition is vital for overall health and well-being, especially during recovery. Our nutrition experts will assess your dietary needs and provide personalized guidance and support to ensure you receive the nutrients necessary for optimal healing and recovery." />
-        <ServiceForm serviceName="Nutrition"  />
+        <ServiceSection image={images.service3} paraH={t("services.parah3")} para2={t("services.card3desc")} />
+        <ServiceForm serviceName={t("services.card3name")}  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>

@@ -9,14 +9,16 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { useTranslation } from 'react-i18next';
 
 const Telemedicine = () => {
+    const {t} = useTranslation("global")
   return (
     <>
-    <Breadcrumb styles="bg_service7" title="Telemedicine" />
+    <Breadcrumb styles="bg_service7" title={t("services.card7name")} />
     <section className="container m-auto px-2 my-10">
-        <ServiceSection image={images.service7} paraH="Embracing Telemedicine for Remote Consultations" para2="Embrace the future of healthcare with our telemedicine services. Access medical consultations and support remotely, allowing you to connect with healthcare professionals from wherever you are, at a time that suits you best." />
-        <ServiceForm serviceName="Telemedicine"  />
+        <ServiceSection image={images.service7} paraH={t("services.parah7")} para2={t("services.card7desc")} />
+        <ServiceForm serviceName={t("services.card7name")}  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>
