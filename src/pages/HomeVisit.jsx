@@ -18,7 +18,7 @@ const HomeVisit = () => {
             <Breadcrumb styles="bg_service1" title={t("tabServices.tab1Name")} />
             <section className="container m-auto px-2 my-10">
                 <ServiceSection image={images.service1} paraH={t("services.parah")} para2={t("services.card1desc")} />
-                <ServiceForm serviceName="Home Visit"  />
+                <ServiceForm serviceName={t("tabServices.tab1Name")} />
                 <div className='pt-12 pb-16'>
                     <div className='text-center font-serif'>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>

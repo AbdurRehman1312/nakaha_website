@@ -50,7 +50,7 @@ const router = createBrowserRouter(
       <Route path="services" element={<Services />} />
       <Route path="contact-us" element={<ContactUs />} />
       <Route path="home-visit" element={<HomeVisit />} />
-      <Route path="nursinxg-care" element={<NursingCare />} />
+      <Route path="nursing-care" element={<NursingCare />} />
       <Route path="nutrition" element={<Nutrition />} />
       <Route path="manage-medication" element={<ManageMedication />} />
       <Route path="bed-sores" element={<BedSores />} />
