@@ -39,93 +39,138 @@ const Footer = () => {
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3 flex-1">
           <img src={images.logo} alt="" className="w-[50%]" />
           <h2 className="text-slate-100 text-[14px]">898-0908-983</h2>
-          <Link to="/" className="text-slate-100 text-[14px]">
+          <Link to="/book-now" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col1.book")}
           </Link>
-          <Link to="/contactus" className="text-slate-100 text-[14px]">
-            {t("footer.col1.contactus")}
+          <Link
+            to="https://calendly.com/abdurrehmansaifi784"
+            className="text-slate-100 text-[14px]"
+          >
+            {t("header.contactus")}
           </Link>
         </div>
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
           <h2 className="text-2xl text-slate-100 font-bold">
             {t("footer.col2.services")}
           </h2>
-          <Link to="/home-visit" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/home-visit"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service1")}
           </Link>
-          <Link to="/nursing-care" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/nursing-care"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service2")}
           </Link>
-          <Link to="/nutrition" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/nutrition"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service10")}
           </Link>
-          <Link to="/manage-medication" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/manage-medication"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service3")}
           </Link>
-          <Link to="/bed-sores" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/bed-sores"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service4")}
           </Link>
-          <Link to="/physiotherapy" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/physiotherapy"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service5")}
           </Link>
-          <Link to="/telemedicine" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/telemedicine"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service6")}
           </Link>
-          <Link to="/vascular" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/vascular"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service7")}
           </Link>
-          <Link to="/urinary" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/urinary"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service8")}
           </Link>
-          <Link to="/radiology" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link
+            to="/radiology"
+            className="text-slate-100 text-[14px]"
+            onClick={scrollToTop}
+          >
             {t("footer.col2.service9")}
           </Link>
         </div>
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
           <h2 className="text-2xl text-slate-100 font-bold">
-          {t("footer.col3.package")}
+            {t("footer.col3.package")}
           </h2>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col3.package1")}
+            {t("footer.col3.package1")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col3.package2")}
+            {t("footer.col3.package2")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col3.package3")}
+            {t("footer.col3.package3")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col3.package4")}
+            {t("footer.col3.package4")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col3.package5")}
+            {t("footer.col3.package5")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col3.package6")}
+            {t("footer.col3.package6")}
           </Link>
         </div>
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3">
-          <h2 className="text-2xl text-slate-100 font-bold">{t("footer.col4.blogs")}</h2>
+          <h2 className="text-2xl text-slate-100 font-bold">
+            {t("footer.col4.blogs")}
+          </h2>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col4.blog1")}
+            {t("footer.col4.blog1")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col4.blog2")}
+            {t("footer.col4.blog2")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col4.blog3")}
+            {t("footer.col4.blog3")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col4.blog4")}
+            {t("footer.col4.blog4")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col4.blog5")}
+            {t("footer.col4.blog5")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col4.blog6")}
+            {t("footer.col4.blog6")}
           </Link>
           <Link to="/" className="text-slate-100 text-[14px]">
-          {t("footer.col4.blog7")}
+            {t("footer.col4.blog7")}
           </Link>
         </div>
       </div>

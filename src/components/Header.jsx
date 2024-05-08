@@ -25,7 +25,7 @@ const Header = () => {
     { name: t("header.aboutus"), link: "/about" },
     { name: t("header.services"), link: "/services" },
     { name: t("header.blog"), link: "/blogs" },
-    { name: t("header.contactus"), link: "/consultaion" },
+    { name: t("header.contactus"), link: "https://calendly.com/abdurrehmansaifi784" },
   ];
 
   return (
