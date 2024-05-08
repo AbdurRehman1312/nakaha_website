@@ -3,6 +3,8 @@
         "home": "Home",
         "aboutus": "About Us",
         "services": "Services",
+        "primaryServices": "Primary Services",
+        "holisticServices": "Holistic Care Packages",
         "blog": "Blog",
         "contactus": "Consultaion",
         "appointment": "Want to make an appointment?",
@@ -12,7 +14,7 @@
     "hero": {
         "trust": "Trust in our care",
         "business": "years in business",
-        "location": "locations across five states",
+        "location": "locations across Egypt",
         "come": "Come home to Nakaha, where your family is our family. At our family-owned and operated company, we bring care and community together to create a better way of aging.",
         "learn": "Learn More"
     },
@@ -101,6 +103,24 @@
         "parah10": "Enhancing Diagnostic Precision and Treatment Planning",
         "card10desc": "State-of-the-art imaging services for comprehensive diagnostic evaluations and treatment planning."
     },
+    "holisticServices": {
+        "heading": "Holistic Care Packages",
+        "card1name": "Oncology Care",
+        "parah1": "Comprehensive Oncology Care: Supporting Your Cancer Journey",
+        "card1desc": "Our comprehensive oncology care package is designed to support individuals undergoing cancer treatment. From pain management to nutrition and medication therapy management, we're here to ensure your comfort and well-being throughout your cancer journey.",
+        "card2name": "Tracheostomy Care",
+        "parah2": "Specialized Tracheostomy Care: Personalized Support for Optimal Health",
+        "card2desc": "If you or a loved one has a tracheostomy, our specialized care team is here to provide the support you need. From tracheostomy management to respiratory care, we'll ensure you receive the personalized attention required for optimal health and recovery.",
+        "card3name": "Post-Hospitalization Care",
+        "parah3": "Seamless Transition: Personalized Post-Hospitalization Care at Home",
+        "card3desc": "Transitioning from hospital to home can be challenging, but with our post-hospitalization care packages, we make it seamless. Receive the support you need to recover and heal in the comfort of your own home, tailored to your unique needs and requirements.",
+        "card4name": "Stroke Care",
+        "parah4": "Thriving After Stroke: Personalized Rehabilitation for Independence",
+        "card4desc": "Regaining independence and functionality after a stroke is possible with our personalized stroke care packages. Our dedicated rehabilitation programs focus on improving mobility, speech, and overall quality of life, helping you or your loved one thrive post-stroke.",
+        "card5name": "Swallowing and Speech Rehabilitation",
+        "parah5": "Empowering Communication: Specialized Rehabilitation for Swallowing and Speech Post-Stroke",
+        "card5desc": "Overcoming swallowing difficulties and speech challenges post-stroke is achievable with our specialized rehabilitation sessions. Our experienced therapists will work with you to regain these essential functions, improving your quality of life and communication abilities."
+    },
     "blogs":{
         "heading": "News And Blogs"
     },
@@ -141,11 +161,123 @@
         "faq": "Frequently Asked Questions",
         "homevisit": {
             "faq1": "What type of medical care can I receive at home?",
-            "ans1": " Our healthcare professionals provide a range of medical services, including routine check-ups, medication management, wound care, and more, all in the comfort of your home.",
+            "ans1": "Our healthcare professionals provide a range of medical services, including routine check-ups, medication management, wound care, and more, all in the comfort of your home.",
             "faq2": "How do I schedule a home healthcare visit?",
             "ans2": "Scheduling a visit is easy! Simply call our office or use our online booking system to choose a convenient date and time for our healthcare professionals to visit you at home.",
-            "faq3": " Are your healthcare professionals qualified and licensed?",
+            "faq3": "Are your healthcare professionals qualified and licensed?",
             "ans3": "Yes, all our healthcare professionals are highly qualified, licensed, and experienced in providing home healthcare services. You can trust in their expertise and dedication to your well-being."
+        },
+        "nursingcare":{
+            "faq1": "What type of nursing care do you provide at home?",
+            "ans1": "Our skilled nurses provide round-the-clock nursing care, including medication administration, wound care, monitoring vital signs, and offering emotional support to ensure your well-being.",
+            "faq2": "How do I access round-the-clock nursing care at home?",
+            "ans2": "Accessing our round-the-clock nursing care is easy. Simply contact us to discuss your needs, and we will arrange for skilled nurses to provide continuous support in the comfort of your home.",
+            "faq3": "What qualifications do your nurses have?",
+            "ans3": "Our nurses are highly qualified, licensed, and experienced in providing compassionate care. They undergo rigorous training to ensure they meet the highest standards of nursing practice."
+        },
+        "nutrition":{
+            "faq1": "Why is proper nutrition important during recovery?",
+            "ans1": "Proper nutrition plays a crucial role in recovery by providing essential nutrients that support healing, strengthen the immune system, and promote overall well-being.",
+            "faq2": "What can I expect from your nutrition experts?",
+            "ans2": "Our nutrition experts will assess your dietary needs, create a personalized nutrition plan, and provide guidance and support to ensure you receive the nutrients necessary for optimal healing and recovery.",
+            "faq3": "How do I access personalized nutrition guidance from your experts?",
+            "ans3": "Accessing personalized nutrition guidance is simple. Contact us to schedule a consultation with our nutrition experts, where they will assess your needs and create a tailored plan for you."
+        },
+        "managingMedication":{
+            "faq1": "What does medication management entail?",
+            "ans1": "Medication management involves ensuring individuals use their medications safely, effectively, and appropriately. It includes tasks such as assessing medication needs, monitoring usage, and providing education on medication use.",
+            "faq2": "What is the objective of medication management?",
+            "ans2": "The objective of medication management is to maximize the benefits of medication while minimizing potential risks. This is achieved through careful assessment, monitoring, and education to ensure safe and effective medication use.",
+            "faq3": "How does medication management improve patient safety?",
+            "ans3": "Medication management improves patient safety by implementing approaches like medication reconciliation to prevent errors, utilizing technological solutions for accurate dosage tracking, and providing education to encourage medication adherence."
+        },
+        "bedSores":{
+            "faq1": "Why is preventing and managing bed sores important?",
+            "ans1": "Preventing and managing bed sores is crucial for overall well-being as they can lead to complications and discomfort. Proper wound care helps prevent infections and promotes healing.",
+            "faq2": "What services do your wound care specialists provide?",
+            "ans2": "Our wound care specialists offer personalized services focused on prevention, treatment, and healing of bed sores. They assess the wound, provide appropriate treatment, and offer guidance on preventing future occurrences.",
+            "faq3": "How does personalized wound care benefit patients?",
+            "ans3": "Personalized wound care ensures patients receive tailored treatment that addresses their specific needs, leading to faster healing, reduced risk of complications, and improved comfort and quality of life."
+        },
+        "physiotherapy":{
+            "faq1": "What are the benefits of physiotherapy for rehabilitation?",
+            "ans1": "Physiotherapy offers numerous benefits, including regaining mobility, strength, and function, reducing pain, preventing further injury, and improving overall quality of life.",
+            "faq2": "How do your skilled therapists approach physiotherapy sessions?",
+            "ans2": "Our skilled therapists create personalized treatment plans tailored to each individual's specific needs. They use a variety of techniques and exercises to address mobility, strength, flexibility, and pain management.",
+            "faq3": "What types of conditions or injuries can physiotherapy help with?",
+            "ans3": "Physiotherapy can help with a wide range of conditions and injuries, including musculoskeletal injuries, post-surgical rehabilitation, neurological conditions, sports injuries, and chronic pain management."
+        },
+        "telemedicine":{
+            "faq1": "What are telemedicine services?",
+            "ans1": "Telemedicine services allow individuals to access medical consultations and support remotely, connecting with healthcare professionals through virtual platforms rather than in-person visits.",
+            "faq2": "What are the benefits of using telemedicine?",
+            "ans2": "The benefits of telemedicine include convenience, accessibility from anywhere, reduced travel time and costs, timely access to healthcare professionals, and the ability to connect at a time that suits the individual best.",
+            "faq3": "How does telemedicine work?",
+            "ans3": " Telemedicine utilizes technology such as video calls, phone consultations, and secure messaging platforms to facilitate communication between patients and healthcare professionals. It allows for virtual assessments, diagnoses, and treatment recommendations."
+        },
+        "vascular":{
+            "faq1": "What is vascular access and why is it important?",
+            "ans1": "Vascular access refers to the insertion of devices into blood vessels to facilitate the delivery of medical treatments and therapies, such as medications, fluids, and blood products. It is crucial for patients who require long-term or frequent medical interventions.",
+            "faq2": "What does expert insertion and management of vascular access devices involve?",
+            "ans2": "Expert insertion and management of vascular access devices involve skilled procedures for inserting devices like central venous catheters, peripherally inserted central catheters (PICC lines), and arteriovenous fistulas. It also includes ongoing monitoring, care, and maintenance of these devices to ensure their safety and effectiveness.",
+            "faq3": "Who provides expert vascular access care?",
+            "ans3": "Expert vascular access care is typically provided by healthcare professionals trained in vascular access, such as vascular access nurses, interventional radiologists, and vascular surgeons. These specialists have the knowledge and skills to perform procedures and manage vascular access devices effectively."
+        },
+        "urinary":{
+            "faq1": "What is urinary catheter insertion and removal?",
+            "ans1": "Urinary catheter insertion involves placing a flexible tube into the bladder through the urethra to drain urine, while removal involves taking out the catheter once it's no longer needed. These procedures are common in healthcare settings to manage urinary issues.",
+            "faq2": "Why is skilled assistance important for urinary catheter insertion and removal?",
+            "ans2": "Skilled assistance is crucial for urinary catheter procedures to ensure they are done safely, hygienically, and with minimal discomfort for the patient. Proper technique reduces the risk of complications and promotes patient well-being.",
+            "faq3": "Who provides skilled assistance with urinary catheter insertion and removal?",
+            "ans3": "Skilled assistance with urinary catheter procedures is typically provided by healthcare professionals trained in catheterization, such as nurses, nurse practitioners, or urologists. These professionals have the expertise to perform the procedures effectively and safely."
+        },
+        "radiology":{
+            "faq1": "What are imaging services in healthcare?",
+            "ans1": "Imaging services in healthcare refer to the use of various technologies to create visual representations of internal body structures, organs, and tissues. These images are used for diagnostic purposes and treatment planning.",
+            "faq2": "What types of imaging technologies are considered state-of-the-art?",
+            "ans2": "State-of-the-art imaging technologies include magnetic resonance imaging (MRI), computed tomography (CT), ultrasound, positron emission tomography (PET), and digital X-rays. These technologies offer detailed and accurate images for diagnostic evaluations.",
+            "faq3": "What are the benefits of state-of-the-art imaging services?",
+            "ans3": "The benefits include enhanced diagnostic accuracy, early detection of medical conditions, precise treatment planning, minimally invasive procedures, reduced patient discomfort, and improved patient outcomes."
+        },
+        "oncology":{
+            "faq1": "What services does your oncology care package include?",
+            "ans1": "Our oncology care package includes a range of services such as pain management, nutritional guidance, and medication therapy management. We provide comprehensive support tailored to your specific needs during cancer treatment.",
+            "faq2": "How does your package ensure patient comfort during cancer treatment?",
+            "ans2": "Our package is designed to prioritize patient comfort by offering personalized pain management strategies, nutritional counseling to maintain strength and energy levels, and expert medication therapy management to minimize side effects and enhance treatment effectiveness.",
+            "faq3": "What makes your oncology care package stand out from others?",
+            "ans3": "Our care package stands out for its holistic approach, combining medical expertise with compassionate support. We focus not only on treating the disease but also on enhancing overall well-being, ensuring that patients feel supported and cared for throughout their cancer journey."
+        },
+        "tracheostomy":{
+            "faq1": "What services does your specialized tracheostomy care team offer?",
+            "ans1": "Our specialized tracheostomy care team provides comprehensive services including tracheostomy management, respiratory care, and personalized support to meet your specific needs and promote optimal health and recovery.",
+            "faq2": "How does your team ensure personalized attention for individuals with a tracheostomy?",
+            "ans2": "We prioritize personalized attention by tailoring our care plans to each individual's unique needs and circumstances. Our team closely monitors tracheostomy management, offers specialized respiratory care, and provides ongoing support to promote comfort and well-being.",
+            "faq3": "What sets your specialized tracheostomy care apart from other providers?",
+            "ans3": "Our care stands out for its specialized focus on tracheostomy management and respiratory care. We combine medical expertise with compassionate support, ensuring that individuals with a tracheostomy receive the attention and resources necessary for optimal health and recovery."
+        },
+        "postHospitalization":{
+            "faq1": "What services are included in your post-hospitalization care packages?",
+            "ans1": "Our post-hospitalization care packages offer a range of services including medical monitoring, medication management, rehabilitation support, and personalized care planning. We ensure a seamless transition from hospital to home, tailored to your unique needs for a smooth recovery.",
+            "faq2": "How does your care team support individuals transitioning from hospital to home?",
+            "ans2": "We prioritize personalized attention by tailoring our care plans to each individual's unique needs and circumstances. Our team closely monitors tracheostomy management, offers specialized respiratory care, and provides ongoing support to promote comfort and well-being.",
+            "faq3": "What makes your post-hospitalization care packages stand out in terms of personalized care?",
+            "ans3": "Our packages stand out for their personalized approach, taking into account each individual's specific needs and requirements. We collaborate with healthcare professionals and family members to create a customized care plan that ensures a smooth and successful recovery at home."
+        },
+        "strokeCare":{
+            "faq1": "What does your personalized stroke care package entail?",
+            "ans1": "Our personalized stroke care package includes dedicated rehabilitation programs designed to improve mobility, speech, cognitive function, and overall quality of life. We tailor our services to each individual's unique needs to promote independence and functionality post-stroke.",
+            "faq2": "How does your rehabilitation program support individuals in regaining independence after a stroke?",
+            "ans2": "Our rehabilitation program focuses on comprehensive therapies aimed at improving physical and cognitive abilities. We provide individualized exercises, speech therapy, and support services to help individuals regain independence and enhance their quality of life.",
+            "faq3": "What sets your stroke care packages apart in terms of promoting thriving post-stroke?",
+            "ans3": "Our care packages stand out for their personalized approach and dedicated focus on rehabilitation. We combine expert therapies with compassionate support, empowering individuals to achieve their goals and thrive in their journey towards recovery after a stroke."
+        },
+        "swallowing":{
+            "faq1": "What specialized rehabilitation sessions are included in your program for swallowing difficulties and speech challenges post-stroke?",
+            "ans1": "Our program includes specialized rehabilitation sessions focused on improving swallowing function and speech abilities post-stroke. Our experienced therapists use targeted exercises and techniques to help individuals regain these essential functions.",
+            "faq2": "How do your experienced therapists work with individuals to overcome swallowing difficulties and speech challenges post-stroke?",
+            "ans2": "Our therapists collaborate closely with individuals to create personalized rehabilitation plans. They use evidence-based techniques, such as swallowing exercises, speech therapy, and communication strategies, to address specific challenges and improve overall quality of life.",
+            "faq3": "What distinguishes your specialized rehabilitation program in terms of improving communication abilities post-stroke?",
+            "ans3": "Our program stands out for its focus on targeted interventions and individualized support. We prioritize empowering individuals to overcome swallowing difficulties and speech challenges, enhancing their communication abilities and quality of life post-stroke."
         }
     },
     "footer": {

@@ -20,28 +20,28 @@ const NursingCare = () => {
         <ServiceForm serviceName={t("services.card2name")}  />
         <div className='pt-12 pb-16'>
             <div className='text-center font-serif'>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">Frequently Asked Questions</h1>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">{t("eachService.faq")}</h1>
             </div>
             <Accordion type="single" collapsible className='mt-16'>
-                <AccordionItem value="item-1">
-                    <AccordionTrigger>What type of nursing care do you provide at home?</AccordionTrigger>
-                    <AccordionContent>
-                    Our skilled nurses provide round-the-clock nursing care, including medication administration, wound care, monitoring vital signs, and offering emotional support to ensure your well-being.
-                    </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-2">
-                    <AccordionTrigger> How do I access round-the-clock nursing care at home?</AccordionTrigger>
-                    <AccordionContent>
-                    Accessing our round-the-clock nursing care is easy. Simply contact us to discuss your needs, and we will arrange for skilled nurses to provide continuous support in the comfort of your home.
-                    </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-3">
-                    <AccordionTrigger> What qualifications do your nurses have?</AccordionTrigger>
-                    <AccordionContent>
-                    Our nurses are highly qualified, licensed, and experienced in providing compassionate care. They undergo rigorous training to ensure they meet the highest standards of nursing practice.
-                    </AccordionContent>
-                </AccordionItem>
-            </Accordion>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger>{t("eachService.nursingcare.faq1")}</AccordionTrigger>
+                            <AccordionContent>
+                            {t("eachService.nursingcare.ans1")}
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-2">
+                            <AccordionTrigger>{t("eachService.nursingcare.faq2")}</AccordionTrigger>
+                            <AccordionContent>
+                            {t("eachService.nursingcare.ans2")}
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-3">
+                            <AccordionTrigger>{t("eachService.nursingcare.faq3")}</AccordionTrigger>
+                            <AccordionContent>
+                            {t("eachService.nursingcare.ans3")}
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
         </div>
     </section>
 </>

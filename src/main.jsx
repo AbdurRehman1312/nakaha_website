@@ -28,6 +28,12 @@ import Vascular from "./pages/Vascular.jsx";
 import Urinary from "./pages/Urinary.jsx";
 import Radiology from "./pages/Radiology.jsx";
 import BooknowForm from "./pages/BooknowForm.jsx";
+import HolisticPackage from "./pages/HolisticPackage.jsx";
+import OncologyCare from "./pages/OncologyCare.jsx";
+import TracheostomyCare from "./pages/TracheostomyCare.jsx";
+import PostHospitalization from "./pages/PostHospitalization.jsx";
+import StrokeCare from "./pages/StrokeCare.jsx";
+import SwallowingSpeech from "./pages/SwallowingSpeech.jsx";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -61,6 +67,12 @@ const router = createBrowserRouter(
       <Route path="urinary" element={<Urinary/>} />
       <Route path="radiology" element={<Radiology/>} />
       <Route path="book-now" element={<BooknowForm/>} />
+      <Route path="holistic-care-packages" element={<HolisticPackage/>} />
+      <Route path="oncology-care" element={<OncologyCare/>} />
+      <Route path="tracheostomy-care" element={<TracheostomyCare/>} />
+      <Route path="post-hospitalization-care" element={<PostHospitalization/>} />
+      <Route path="stroke-care" element={<StrokeCare/>} />
+      <Route path="swallowing-speech-rehabilitation" element={<SwallowingSpeech/>} />
     </Route>
   )
 );

@@ -24,11 +24,11 @@ const Hero = () => {
           />
         </div>
         <div className="bg-[#e46069] text-gray-700 rounded-2xl p-3 flex flex-col justify-center items-center">
-          <h3 className="font-bold md:text-7xl text-3xl">49</h3>
+          <h3 className="font-bold md:text-7xl text-3xl">5</h3>
           <p className="text-xl">{t("hero.business")}</p>
         </div>
         <div className="lg:row-start-2 bg-[#aecddd] text-gray-700 rounded-2xl p-3 flex flex-col justify-center items-center">
-          <h3 className="font-bold md:text-7xl text-3xl">57</h3>
+          <h3 className="font-bold md:text-7xl text-3xl">3</h3>
           <p className="text-xl">{t("hero.location")}</p>
         </div>
         <div className="dark lg:col-span-2  relative w-full h-[220px]">
