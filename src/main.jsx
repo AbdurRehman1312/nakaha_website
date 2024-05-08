@@ -27,6 +27,7 @@ import Telemedicine from "./pages/Telemedicine.jsx";
 import Vascular from "./pages/Vascular.jsx";
 import Urinary from "./pages/Urinary.jsx";
 import Radiology from "./pages/Radiology.jsx";
+import BooknowForm from "./pages/BooknowForm.jsx";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -48,7 +49,7 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="blogs" element={<Blogs />} />
       <Route path="services" element={<Services />} />
-      <Route path="contact-us" element={<ContactUs />} />
+      <Route path="consultaion" element={<ContactUs />} />
       <Route path="home-visit" element={<HomeVisit />} />
       <Route path="nursing-care" element={<NursingCare />} />
       <Route path="nutrition" element={<Nutrition />} />
@@ -59,6 +60,7 @@ const router = createBrowserRouter(
       <Route path="vascular" element={<Vascular />} />
       <Route path="urinary" element={<Urinary/>} />
       <Route path="radiology" element={<Radiology/>} />
+      <Route path="book-now" element={<BooknowForm/>} />
     </Route>
   )
 );

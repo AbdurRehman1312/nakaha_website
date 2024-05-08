@@ -25,7 +25,7 @@ const Header = () => {
     { name: t("header.aboutus"), link: "/about" },
     { name: t("header.services"), link: "/services" },
     { name: t("header.blog"), link: "/blogs" },
-    { name: t("header.contactus"), link: "/contact-us" },
+    { name: t("header.contactus"), link: "/consultaion" },
   ];
 
   return (
@@ -34,12 +34,12 @@ const Header = () => {
         <div className="container m-auto px-2 flex flex-col md:flex-row gap-4 items-center justify-evenly">
           <div className="flex flex-col md:flex-row gap-4 items-center">
             <h1 className="text-white">{t("header.appointment")}</h1>
-            <a href="https://calendly.com/abdurrehmansaifi784" target="_blank">
-              <Button
+            <Link to={"/book-now"}>
+            <Button
                 name={t("header.booknow")}
                 style="hover:bg-third hover:text-primary hover:border-primary text-white"
               />
-            </a>
+            </Link>
           </div>
           <div className="flex items-center justify-self-end gap-3">
             <img src={images.phone} alt="" className="w-8 h-8" />
