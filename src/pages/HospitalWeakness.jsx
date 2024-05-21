@@ -13,13 +13,13 @@ const HospitalWeakness = () => {
     <section className="container m-auto px-2 my-10">
         <ServiceSection image={images.service5} paraH={t("blogCard1.name")} para2={t("blogCard1.para1")} para3={t("blogCard1.para2")}/>
         <div className=' lg:mx-36 mt-12'>
-            <h1 className="text-xl md:text-2xl lg:text-3xl text-primary">{t("blogCard1.head3")}</h1>
-            <p className='mt-6 text-2xl text-justify'>{t("blogCard1.para3")}</p>
-            <p className='mt-6 text-2xl text-justify'>{t("blogCard1.para4")}</p>
+            <h1 className="text-3xl text-primary">{t("blogCard1.head3")}</h1>
+            <p className='mt-6 text-2xl md:text-justify'>{t("blogCard1.para3")}</p>
+            <p className='mt-6 text-2xl md:text-justify'>{t("blogCard1.para4")}</p>
         </div>
         <div className=' lg:mx-36 mt-12'>
-            <h1 className="text-xl md:text-2xl lg:text-3xl text-primary">{t("blogCard1.head5")}</h1>
-            <p className='mt-6 text-2xl text-justify'>{t("blogCard1.para5")}</p>
+            <h1 className=" text-3xl text-primary">{t("blogCard1.head5")}</h1>
+            <p className='mt-6 text-2xl md:text-justify'>{t("blogCard1.para5")}</p>
         </div>
         <div className=' lg:mx-36 mt-12'>
             <p className='mt-6 text-2xl'>{t("blogCard1.para6")}</p>

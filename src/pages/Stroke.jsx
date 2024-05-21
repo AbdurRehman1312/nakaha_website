@@ -12,8 +12,8 @@ const Stroke = () => {
       <section className="container m-auto px-2 my-10">
            <ServiceSection image={images.hero3} paraH={t("blogCard3.name")} para2={t("blogCard3.para1")}/>
            <div className=' mx-36 mt-12'>
-               <h1 className="text-xl md:text-2xl lg:text-3xl text-primary">{t("blogCard3.head2")}</h1>
-               <p className='mt-6 text-2xl text-justify'>{t("blogCard3.para2")}</p>
+               <h1 className="text-3xl text-primary">{t("blogCard3.head2")}</h1>
+               <p className='mt-6 text-2xl md:text-justify'>{t("blogCard3.para2")}</p>
                <ul className='list-disc mt-10 ml-5'>
                   <li className='text-2xl'>{t("blogCard3.point1")}</li>
                   <li className='text-2xl  my-4'>{t("blogCard3.point2")}</li>
@@ -26,8 +26,8 @@ const Stroke = () => {
 
            </div>
            <div className=' mx-36 mt-12'>
-               <h1 className="text-xl md:text-2xl lg:text-3xl text-primary">{t("blogCard3.head3")}</h1>
-               <p className='mt-6 text-2xl text-justify'>{t("blogCard3.para3")}</p>
+               <h1 className="text-3xl text-primary">{t("blogCard3.head3")}</h1>
+               <p className='mt-6 text-2xl md:text-justify'>{t("blogCard3.para3")}</p>
                <ul className='list-disc mt-10 ml-5'>
                   <li className='text-2xl  my-4'>{t("blogCard3.point8")}</li>
                   <li className='text-2xl  my-4'>{t("blogCard3.point9")}</li>
@@ -41,8 +41,8 @@ const Stroke = () => {
              <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary">{t("blogCard4.head4")}</h1>
          </div>
            <div className=' mx-36 mt-12'>
-               <h1 className="text-xl md:text-2xl lg:text-3xl text-primary">{t("blogCard3.head5")}</h1>
-               <p className='mt-6 text-2xl text-justify'>{t("blogCard3.para5")}</p>
+               <h1 className="text-3xl text-primary">{t("blogCard3.head5")}</h1>
+               <p className='mt-6 text-2xl md:text-justify'>{t("blogCard3.para5")}</p>
                <ul className='list-disc mt-10 ml-5'>
                   <li className='text-2xl'>{t("blogCard3.point13")}</li>
                   <li className='text-2xl  my-4'>{t("blogCard3.point14")}</li>
@@ -53,8 +53,8 @@ const Stroke = () => {
 
            </div>
            <div className=' mx-36 mt-12'>
-            <h1 className="text-xl md:text-2xl lg:text-3xl text-primary">{t("blogCard4.head6")}</h1>
-            <p className='mt-6 text-2xl text-justify'>{t("blogCard4.para6")}</p>
+            <h1 className="text-3xl text-primary">{t("blogCard4.head6")}</h1>
+            <p className='mt-6 text-2xl md:text-justify'>{t("blogCard4.para6")}</p>
         </div>
     </section>
       </>
