@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServiceSection = ({image, paraH, para2}) => {
+const ServiceSection = ({image, paraH, para2, para3}) => {
   return (
     <>
       
@@ -15,6 +15,9 @@ const ServiceSection = ({image, paraH, para2}) => {
             </p>
             <p className="text-2xl text-justify text-gray-800">
               {para2} 
+            </p>
+            <p className="text-2xl text-justify text-gray-800">
+              {para3} 
             </p>
           </div>
         </div>

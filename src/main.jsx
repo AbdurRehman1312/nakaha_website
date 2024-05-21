@@ -34,6 +34,13 @@ import TracheostomyCare from "./pages/TracheostomyCare.jsx";
 import PostHospitalization from "./pages/PostHospitalization.jsx";
 import StrokeCare from "./pages/StrokeCare.jsx";
 import SwallowingSpeech from "./pages/SwallowingSpeech.jsx";
+import NursingHome from "./pages/NursingHome.jsx";
+import HospitalWeakness from "./pages/HospitalWeakness.jsx";
+import MedicationManagement from "./pages/MedicationManagement.jsx";
+import Malnutrition from "./pages/Malnutrition.jsx";
+import Stroke from "./pages/Stroke.jsx";
+import Oncology from "./pages/Oncology.jsx";
+import RedFlag from "./pages/RedFlag.jsx";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -73,6 +80,13 @@ const router = createBrowserRouter(
       <Route path="post-hospitalization-care" element={<PostHospitalization/>} />
       <Route path="stroke-care" element={<StrokeCare/>} />
       <Route path="swallowing-speech-rehabilitation" element={<SwallowingSpeech/>} />
+      <Route path="nursing-at-home" element={<NursingHome/>} />
+      <Route path="hospital-acquired-muscle-weakness" element={<HospitalWeakness/>} />
+      <Route path="medication-management" element={<MedicationManagement/>} />
+      <Route path="malnutrition" element={<Malnutrition/>} />
+      <Route path="stroke-care-blog" element={<Stroke/>} />
+      <Route path="oncology-blog" element={<Oncology/>} />
+      <Route path="redflag" element={<RedFlag/>} />
     </Route>
   )
 );

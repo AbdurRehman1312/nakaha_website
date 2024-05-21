@@ -26,6 +26,7 @@ const Blogs = () => {
       swiperRef.current.slidePrev();
     }
   };
+ 
 
   useEffect(() => {
     document.body.dir = i18n.dir();  // Ensure the body direction is updated
@@ -73,56 +74,63 @@ const Blogs = () => {
               <BlogCard
                 img="service5"
                 name={t("blogCard1.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard1.para1")}
                 date="28 May, 2024"
+                link = "/hospital-acquired-muscle-weakness"
               />
             </SwiperSlide>
             <SwiperSlide>
               <BlogCard
                 img="hero1"
                 name={t("blogCard2.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard2.para1")}
                 date="28 May, 2024"
+                link = "/malnutrition"
               />
             </SwiperSlide>
             <SwiperSlide>
               <BlogCard
                 img="hero2"
                 name={t("blogCard4.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard4.para1")}
                 date="28 May, 2024"
+                link = "/medication-management"
               />
             </SwiperSlide>
             <SwiperSlide>
               <BlogCard
                 img="hero3"
                 name={t("blogCard3.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard3.para1")}
                 date="28 May, 2024"
+                link = "/stroke-care-blog"
               />
             </SwiperSlide>
             <SwiperSlide>
               <BlogCard
                 img="service3"
                 name={t("blogCard5.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard5.para1")}
                 date="28 May, 2024"
+                link = "/oncology-blog"
               />
             </SwiperSlide>
             <SwiperSlide>
               <BlogCard
                 img="aboutus"
                 name={t("blogCard6.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard6.para1")}
                 date="28 May, 2024"
+                link = "/nursing-at-home"
               />
             </SwiperSlide>
             <SwiperSlide>
               <BlogCard
                 img="service1"
                 name={t("blogCard7.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard7.para1")}
                 date="28 May, 2024"
+                link = "/redflag"
               />
             </SwiperSlide>
           </Swiper>

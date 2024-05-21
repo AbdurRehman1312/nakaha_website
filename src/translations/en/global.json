@@ -42,25 +42,173 @@
         "readmore": "Read More"
     },
     "blogCard1": {
-        "name": "Hospital-acquired muscle weakness"
+        "name": "Hospital-acquired muscle weakness",
+        "para1": "Loss of muscle mass occurs rapidly in patients on bedrest. There is a 2 to 5 % percent decline in muscle mass each day a patient does not walk. Older adults lose muscle mass as they age, but immobile older adults lose up to 10 % of their muscle mass over the course of 7 days.",
+        "para2": "The decline in muscle mass is accelerated in acutely ill adults as skeletal muscle protein stores are degraded even faster with critical illness. Conversely, movement and exercise are associated with building muscle.",
+        "head3": "What are the barriers to be mobilized inside the hospital?",
+        "para3": "Upon admission to the hospital, an individual will encounter multifaceted barriers to walking including medical, institutional, system and environmental obstacles. Initial impediments stem from the medical problem precipitating the admission.",
+        "para4": "Many patients may be confined to bedrest while awaiting diagnostic tests or after undergoing different procedures or surgeries. Additionally, being connected to intravenous lines, oxygen and mechanical ventilation prohibits unrestricted movement; patients are often not supported or encouraged to walk when attached to hospital equipment.",
+        "head5": "Don’t expect to leave the hospital in the same condition you were in when you arrived.",
+        "para5": "The rule of thumb for a hospital stay is that it will take you one week to recover to pre-hospital condition for each day you spend in the hospital (some say 3–4 days recovery for each day in the hospital). Physical weakness including feeling tired, experiencing pain, and being dependent on others, was the most commonly reported challenge in the ICU, medical floor, and after discharge.",
+        "para6": "Prior to your discharge, ask your care team about services that can help make your recovery better and safer, while tending to your symptoms, needs, and goals. These may include:",
+        "point1": "Physical therapy, acute in-patient rehabilitation or at home",
+        "point2": "Home health services",
+        "point3": "Skilled care facility services"
     },
     "blogCard2": {
-        "name": "Healthy Nutrition post discharge"
+        "name": "Malnutrition",
+        "para1": "Malnutrition is a condition that develops when the body is deprived of vitamins, minerals and other nutrients it needs to maintain healthy tissues and organ function. Malnutrition occurs in those who are either undernourished or overnourished. Undernutrition is characterized by a lack of nutrients and insufficient energy supply, whereas overnutrition is marked by excessive nutrient and energy intake and can result in obesity.",
+        "head2": "Malnutrition during and after hospital stays",
+        "para2": "Some patients become malnourished during their hospital stay — including approximately one-third of those whose nutritional status is adequate upon admission. Not only are these patients at increased risk of complications during hospitalization, but they’re also more likely to have a longer length of stay and are at greater risk for adverse health events after discharge.",
+        "para3": "Some of the poor outcomes associated with malnutrition include:",
+        "point1": "Increased risk of pressure ulcer",
+        "point2": "Impaired wound healing",
+        "point3": "Increased infection rate",
+        "point4": "Muscle wasting",
+        "point5": "Functional loss — resulting in more fall",
+        "point6": "Increased mortality",
+        "head4": "Know Special Factors May Affect Dietary Intake & Nutrient Absorption",
+        "para4": "There are many factors that may affect an individual’s dietary intake and nutrient absorption with age.",
+        "point7": "Difficulty swallowing or lack of mobility can make eating and enjoying food more difficult.",
+        "point8": "Medication, depression and isolation can cause a loss of appetite or change the way foods taste.",
+        "point9": "Older adults may not absorb nutrients properly because of slower metabolism",
+        "head5": "Mindful Eating Habits for All Seniors",
+        "point10": "Instead of salting foods for flavor, add herbs and spices.",
+        "point11": "Add fruits and vegetables to snacks and meals. Buy pre-sliced fruits and vegetables such as apples, baby carrots and cut up melons.",
+        "point12": "Drink water and milk instead of sugary drinks.",
+        "point13": "Enjoy yogurt, hard cheese and lactose-free foods throughout the day.",
+        "point14": "Eat foods that are fortified with vitamin B12."
     },
     "blogCard3": {
-        "name": "Stroke care"
+        "name": "Stroke care",
+        "para1": "People recovering from a stroke may need help eating, getting around, taking medications, and communicating. However, their exact needs vary case by case.",
+        "head2": "Why the patient with stroke may need help?",
+        "para2": "People can have different symptoms, depending on how the stroke affects them. There is also no predictable timeline for recovery that applies to everyone. However, the needs of every stroke survivor are different. Depending on their symptoms, a person may need help with:",
+        "point1": "Taking medications on time",
+        "point2": "Managing medical appointments",
+        "point3": "Getting around",
+        "point4": "Preparing or eating food",
+        "point5": "Communicating with others",
+        "point6": "Performing exercises for speech or physical therapy",
+        "point7": "Accessing emotional support",
+        "head3": "Who should be involved in medical care of stroke patient?",
+        "para3": "A range of medical professionals can help with stroke recovery. The person’s medical team Trusted Source could include :",
+        "point8": "Primary care doctor",
+        "point9": "Neurologist",
+        "point10": "Cardiologist",
+        "point11": "Speech therapist",
+        "point12": "Physical or an exercise therapist",
+        "head4": "How can we help patient with stroke?",
+        "head5": "Talking and communication",
+        "para5": "A stroke can affect brain areas that affect communication. This may affect a person’s ability to speak and possibly their ability to understand speech. If a person experiences these challenges, family members may need to adapt communication to make it easier. The following may help:",
+        "point13": "Use short, simple sentences.",
+        "point14": "Ask “yes or no” questions rather than open-ended ones.",
+        "point15": "Use hand gestures and speech.",
+        "point16": "Keep distractions, such as background noise, to a minimum.",
+        "point17": "Avoid changing the topic too quickly.",
+        "head6": "Eating and drinking",
+        "para6": "Some people recovering from stroke may need help preparing, chewing, or swallowing food. Depending on the challenges they experience, a person may need only small or significant changes to their diet to make food easy to swallow. These can range from cutting their typical foods into smaller pieces to trying an all-liquid diet. The adaptations vary from person to person, so it is important to consult a medical professional about the individual’s needs before making dietary changes."
     },
     "blogCard4": {
-        "name": "Concept of medication management"
+        "name": "Concept of medication management",
+        "head1": "What Is Medication Management?",
+        "para1": "medication management involves the monitoring, reconciling, and evaluation of medications to ensure that the patients receive the expected outcomes. This needs a detailed review of the prescribed medicines, the potential side effects of drugs, and efficient monitoring of their safety and efficacy standards.",
+        "head2": "Why Medication Management is important?",
+        "para2": "Improper use of medications can result in:",
+        "point1": "Side effects",
+        "point2": "Memory loss",
+        "point3": "Confusion",
+        "point4": "Increased health risks",
+        "point5": "Re-admissions to hospitals or healthcare facilities",
+        "para3": "Consider the situation of certain patients who take medications which no longer benefit them or require a prescription for the present situation. The regular evaluation and monitoring of the medications ensure that no two or more medications would result in negative interaction, or cause side effects which degrade the patient’s quality of life.",
+        "head4": "Importance Of Medication",
+        "head5": "Management In Home",
+        "head6": "Avoid Side Effects:",
+        "para6": "Through medication management, the experts adopt the necessary time to understand the conditions of patients and the related symptoms from the prescriptions of the medications. Medication management avoids the development of the side effects such as dementia which usually develops with drug interactions. Though the doctors provide the correct prescriptions, the patients might also experience side effects and health complications with the medications.",
+        "head7": "Maintain Medication Schedule:",
+        "para7": "Even when the doctor prescribes medications as per a schedule for patients to recover from a health concern, they might not follow it completely. Some elderly patients would also take doses in low or high amounts which might not benefit them as required.",
+        "head8": "Prevent Undesirable Medication Combinations:",
+        "para8": "If the patient has many doctors to treat from various specialities who are not connected to each other, then the combinations of medications prescribed could produce undesirable effects on health. The healthcare provider should engage in medication management to avoid such concerns."
     },
     "blogCard5": {
-        "name": "Oncology care"
+        "name": "Oncology care",
+        "para1": "Cancer patients often miss the attention of their specialist at home. This lack of follow up care from the treating specialist and breakdown in continuity of their care protocol can impact patient outcome.",
+        "para2": "Our approach to cancer care at home is based on the idea that patients should continue to receive the attention of their specialist without hospital admission. The continuity of care and specialist’s follow-up protocol at home for the patients improves the treatment outcome.",
+        "head3": "Supervised Episode Management",
+        "para3": "Cancer patients usually deal with a lot of side effects and clinical episodes for which they end up making hospital visits. Instead, we bring the episode management process at home for the patient. Our clinically trained staff provides relief to the patient by providing interventions at home",
+        "head4": "Daily Patient Monitoring",
+        "para4": "Our team monitors the vital signs like BP, pulse, temperature, etc. of the patients on a daily basis and digitally records them for quick and easy access. These recording are then made available to the treating specialist whenever needed. The digital records of these vitals can also be accessed by the family of the patient during specialist consultation.",
+        "head5": "Pain Management",
+        "para5": "Pain is one of the most common side effects experienced by the cancer patients. For some, it can prove to be quite debilitating and affect their functional life. Untreated pain can also deteriorate their quality of life.",
+        "para6": "We work with pain management specialists to extend their treatment at home for pain relief. Our team measures the intensity of pain to offer pain management intervention at home."
     },
     "blogCard6": {
-        "name": "Nursing at home"
+        "name": "Nursing at home",
+        "para1": "Home nursing service becomes a necessity when your loved ones or elderly parents need extra medical care due to varied reasons such as ageing, underlying diseases, risk of falls, etc. In such a critical situation, you allow a nurse visits your home to offer specialized care to your old parents. Thus, having the right help is helpful not just for the patient but also for the rest of the family.",
+        "head1": "Eight Signs Your Parents",
+        "head2": "Need at Home Nursing Care",
+        "para2": "In case your parents are showing the following signs, maybe it is time that you consider home nursing care services:",
+        "head3": "1. They are Diagnosed with a Serious Illness",
+        "para3": "Have your patients been diagnosed with a serious illness? Do they find it difficult to visit the hospital every now and then? If yes, then you should consider the services of a nurse for home care to better manage your parents' health routine. Trained professionals can offer home health care for serious ailments, i.e. heart failure, diabetes, stroke, COPD and Alzheimer's diseases.",
+        "head4": "2. They are not able to Go Out of the House",
+        "para4": "Do your ageing parents require a wheelchair, walker, or crutches to go from one room to another or within the home? It yes, then they probably need nursing care at home.",
+        "head5": "3. They have Got a Fracture",
+        "para5": "Fracture or the risk of falls is the most common issue with ageing parents. If your parents have got hurt or they are at risk of falls, you should not leave them alone. They need the support of a nurse even for doing seemingly menial activities.",
+        "head6": "4. They don't Participate in Communication",
+        "para6": "If your elderly parents stop being social or communicating, this can be an alarming symptom of depression or high blood pressure. You should not overlook this sign. Do not leave them alone. You should arrange a nurse for their care at home.",
+        "head7": "5. They have Taken the Wrong Medicines in the Past",
+        "para7": "Have your parents taken the wrong medicines in your absence? Taking the wrong medicine or taking the incorrect dose can be dangerous. It is a crucial time to arrange home nursing and take care of the timing of their medications.",
+        "head8": "6. They are Forgetful",
+        "para8": "Have you noticed your parents becoming forgetful? If yes, it is recommended that you do not ignore it, as it could be an early sign of dementia. They need a nurse who can take care of them in your absence.",
+        "head9": "7. They've Lost Weight",
+        "para9": "If your ageing parents have lost a considerable amount of weight within a short time period, it might signal their declining health. You should see this as a warning sign.",
+        "head10": "8. They are Bedridden",
+        "para10": "Are your old parents bedridden? If yes, leaving them alone at home can be unsafe for a number of reasons. They need your help to eat the food, drink water or take medicines. If you cannot be present for them all the time, it is recommended that you arrange nurses for home care.",
+        "head11": "Benefits of Home",
+        "head12": "Nursing Care Services",
+        "head13": "1. Reduce the Risk of Hospitalization",
+        "para13": "Home nursing is given when you identify early symptoms of health loss in your elderly parents. Home nurses can play a significant role in reducing the chances of their hospitalization. They help them in their daily activities and offer them on time medications. In this way, the patients may start to show signs of recovery from their serious illness.",
+        "head14": "2. Enhance a Hygienic Atmosphere",
+        "para14": "Old parents, especially those who have recently undergone surgery, are more exposed to infections. Home nurse means that your parents will be given a hygienic environment because they are over sensitive to infections due to their recent surgery or any other serious health conditions."
     },
     "blogCard7": {
-        "name": "Red Flags"
+        "name": "Red Flags",
+        "head1": "What Is an Unsafe Discharge From Hospital?",
+        "para1": "Unsafe discharge — also known as premature discharge — refers to when a patient is released from a hospital too early or without proper onward care arrangements. This can lead to complications during recovery, can negatively impact health, and may also increase the chances of a preventable readmission.",
+        "head2": "What Is Considered an Unsafe Discharge From Hospital Care?",
+        "para2": "Many different scenarios could be considered unsafe discharges. The most common instances of premature release from a hospital include patients being sent home:",
+        "point1": "Before getting a proper diagnosis",
+        "point2": "Without being medically stable",
+        "point3": "Without a follow-up care plan",
+        "head3": "Why Do Unsafe Discharges Occur?",
+        "para3": "Unsafe discharges can occur both intentionally and unintentionally. Sometimes, patients are prematurely released because providers are worried that an insurance plan won’t cover expenses. In other cases, there may be a lack of understanding about a patient’s condition or miscommunication within the healthcare team.",
+        "head4": "What Are the Legal Consequences of an Unsafe Discharge?",
+        "para4": "Regardless of the reason, it’s crucial to avoid discharging patients into unsafe conditions, as this could be considered medical malpractice. Under federal and state laws and regulations on hospital discharges, healthcare providers have a legal duty to care for patients until they’re medically stable. Facilities that fail to enforce proper discharge protocols can be sued by patients for negligence.",
+        "head5": "What Are the Criteria for Safe Discharge From Hospital Care?",
+        "para5": "To avoid unsafe discharge, it’s important for facilities to have comprehensive discharge protocols in place. While policies can differ from hospital to hospital, experts typically recommend incorporating these key criteria for safe discharge:",
+        "point4": "Effective communication with all individuals involved with the patient’s care",
+        "point5": "Initiation of post-discharge health services to ensure continuity of care",
+        "point6": "Implementation of social services and resources to support care transfer",
+        "point7": "Patient education about discharge and at-home care management",
+        "point8": "Early identification of a discharge date agreed upon by the care team",
+        "point9": "An organizational review and audit of discharge by unit leaders",
+        "point10": "Proactive discharge goal planning that starts upon a patient’s admission",
+        "head6": "What Is an Unsafe Discharge From Hospital Care? 5 Red Flags to Look For",
+        "para6": "Each member of the healthcare team can play a role in protecting patients against unsafe discharge. Watch out for these red flags indicating that a potentially inappropriate discharge order has been placed.",
+        "head7": "1. Unstable Symptoms",
+        "para7": "One of the biggest red flags is a discharge order placed for a patient who is not medically stable. If a patient is showing unexplainable or worsening symptoms at discharge, they should be thoroughly reevaluated before they leave the hospital. A patient with unstable vital signs could be in danger if they’re sent home without proper medical supervision.",
+        "head8": "2. Patient Confusion About Discharge Instructions",
+        "para8": "A patient being discharged should be well-equipped and educated to manage their condition at home. If a patient is about to leave the hospital but their discharge education hasn’t been conducted or documented by anyone on the healthcare team, this could indicate a misstep in the care process.",
+        "para9": "Additionally, some patients may not be mentally capable of caring for themselves or making the decision to go home. This is especially common when discharging elderly patients from hospital facilities. If a patient seems confused, or there are disagreements among the healthcare team about a patient’s mental capabilities, this must be resolved before they’re sent home.",
+        "head10": "3. Family Members Are Left in the Dark",
+        "para10": "In addition to the patient, all family members involved in care management should be notified and educated prior to discharge. A patient who relies on caregivers could be placed in unsafe conditions if they go home to a family that isn’t equipped to provide care. If you’re getting ready to discharge a patient and their family is confused or concerned, this likely indicates that there’s been some miscommunication during the discharge process.",
+        "head11": "4. Test Results Haven’t Been Given to Patient",
+        "para11": "If a patient is being discharged but some of their test results are still pending, this is also a red flag. Even if the patient appears medically stable, it’s important to get full medical clearance and wait for all relevant diagnostic testing results. Otherwise, you may be sending a patient home with an underlying condition that later manifests in harmful ways.",
+        "head12": "5. Lack of Coordination in Follow-Up Services",
+        "para12": "If a patient is being discharged to a different health center, it’s important to ensure that care has been fully coordinated. If no one on the healthcare or social service team is able to confirm how or where the patient is going to be transferred, this is a red flag.",
+        "para13": "Any post-discharge care arrangements should be initiated 48 hours prior to discharge. This ensures the patient has an appropriate place to go after leaving the hospital.",
+        "head14": "Does Your Facility Support a Culture of Safety?",
+        "para14": "Now that you can answer the question, What is an unsafe discharge from hospital care? you may be seeking other ways to protect your patients. Need practical tips? IntelyCare has you covered. Our team of nursing experts offers dozens of free nursing management guides to help you build a strong culture of safety."
     },
     "aboutUs": {
         "about": "About Us",
@@ -121,7 +269,7 @@
         "parah5": "Empowering Communication: Specialized Rehabilitation for Swallowing and Speech Post-Stroke",
         "card5desc": "Overcoming swallowing difficulties and speech challenges post-stroke is achievable with our specialized rehabilitation sessions. Our experienced therapists will work with you to regain these essential functions, improving your quality of life and communication abilities."
     },
-    "blogs":{
+    "blogs": {
         "heading": "News And Blogs"
     },
     "contactUs": {
@@ -157,7 +305,7 @@
         "submit": "Submit",
         "start": "Get Started"
     },
-    "eachService":{
+    "eachService": {
         "faq": "Frequently Asked Questions",
         "homevisit": {
             "faq1": "What type of medical care can I receive at home?",
@@ -167,7 +315,7 @@
             "faq3": "Are your healthcare professionals qualified and licensed?",
             "ans3": "Yes, all our healthcare professionals are highly qualified, licensed, and experienced in providing home healthcare services. You can trust in their expertise and dedication to your well-being."
         },
-        "nursingcare":{
+        "nursingcare": {
             "faq1": "What type of nursing care do you provide at home?",
             "ans1": "Our skilled nurses provide round-the-clock nursing care, including medication administration, wound care, monitoring vital signs, and offering emotional support to ensure your well-being.",
             "faq2": "How do I access round-the-clock nursing care at home?",
@@ -175,7 +323,7 @@
             "faq3": "What qualifications do your nurses have?",
             "ans3": "Our nurses are highly qualified, licensed, and experienced in providing compassionate care. They undergo rigorous training to ensure they meet the highest standards of nursing practice."
         },
-        "nutrition":{
+        "nutrition": {
             "faq1": "Why is proper nutrition important during recovery?",
             "ans1": "Proper nutrition plays a crucial role in recovery by providing essential nutrients that support healing, strengthen the immune system, and promote overall well-being.",
             "faq2": "What can I expect from your nutrition experts?",
@@ -183,7 +331,7 @@
             "faq3": "How do I access personalized nutrition guidance from your experts?",
             "ans3": "Accessing personalized nutrition guidance is simple. Contact us to schedule a consultation with our nutrition experts, where they will assess your needs and create a tailored plan for you."
         },
-        "managingMedication":{
+        "managingMedication": {
             "faq1": "What does medication management entail?",
             "ans1": "Medication management involves ensuring individuals use their medications safely, effectively, and appropriately. It includes tasks such as assessing medication needs, monitoring usage, and providing education on medication use.",
             "faq2": "What is the objective of medication management?",
@@ -191,7 +339,7 @@
             "faq3": "How does medication management improve patient safety?",
             "ans3": "Medication management improves patient safety by implementing approaches like medication reconciliation to prevent errors, utilizing technological solutions for accurate dosage tracking, and providing education to encourage medication adherence."
         },
-        "bedSores":{
+        "bedSores": {
             "faq1": "Why is preventing and managing bed sores important?",
             "ans1": "Preventing and managing bed sores is crucial for overall well-being as they can lead to complications and discomfort. Proper wound care helps prevent infections and promotes healing.",
             "faq2": "What services do your wound care specialists provide?",
@@ -199,7 +347,7 @@
             "faq3": "How does personalized wound care benefit patients?",
             "ans3": "Personalized wound care ensures patients receive tailored treatment that addresses their specific needs, leading to faster healing, reduced risk of complications, and improved comfort and quality of life."
         },
-        "physiotherapy":{
+        "physiotherapy": {
             "faq1": "What are the benefits of physiotherapy for rehabilitation?",
             "ans1": "Physiotherapy offers numerous benefits, including regaining mobility, strength, and function, reducing pain, preventing further injury, and improving overall quality of life.",
             "faq2": "How do your skilled therapists approach physiotherapy sessions?",
@@ -207,7 +355,7 @@
             "faq3": "What types of conditions or injuries can physiotherapy help with?",
             "ans3": "Physiotherapy can help with a wide range of conditions and injuries, including musculoskeletal injuries, post-surgical rehabilitation, neurological conditions, sports injuries, and chronic pain management."
         },
-        "telemedicine":{
+        "telemedicine": {
             "faq1": "What are telemedicine services?",
             "ans1": "Telemedicine services allow individuals to access medical consultations and support remotely, connecting with healthcare professionals through virtual platforms rather than in-person visits.",
             "faq2": "What are the benefits of using telemedicine?",
@@ -215,7 +363,7 @@
             "faq3": "How does telemedicine work?",
             "ans3": " Telemedicine utilizes technology such as video calls, phone consultations, and secure messaging platforms to facilitate communication between patients and healthcare professionals. It allows for virtual assessments, diagnoses, and treatment recommendations."
         },
-        "vascular":{
+        "vascular": {
             "faq1": "What is vascular access and why is it important?",
             "ans1": "Vascular access refers to the insertion of devices into blood vessels to facilitate the delivery of medical treatments and therapies, such as medications, fluids, and blood products. It is crucial for patients who require long-term or frequent medical interventions.",
             "faq2": "What does expert insertion and management of vascular access devices involve?",
@@ -223,7 +371,7 @@
             "faq3": "Who provides expert vascular access care?",
             "ans3": "Expert vascular access care is typically provided by healthcare professionals trained in vascular access, such as vascular access nurses, interventional radiologists, and vascular surgeons. These specialists have the knowledge and skills to perform procedures and manage vascular access devices effectively."
         },
-        "urinary":{
+        "urinary": {
             "faq1": "What is urinary catheter insertion and removal?",
             "ans1": "Urinary catheter insertion involves placing a flexible tube into the bladder through the urethra to drain urine, while removal involves taking out the catheter once it's no longer needed. These procedures are common in healthcare settings to manage urinary issues.",
             "faq2": "Why is skilled assistance important for urinary catheter insertion and removal?",
@@ -231,7 +379,7 @@
             "faq3": "Who provides skilled assistance with urinary catheter insertion and removal?",
             "ans3": "Skilled assistance with urinary catheter procedures is typically provided by healthcare professionals trained in catheterization, such as nurses, nurse practitioners, or urologists. These professionals have the expertise to perform the procedures effectively and safely."
         },
-        "radiology":{
+        "radiology": {
             "faq1": "What are imaging services in healthcare?",
             "ans1": "Imaging services in healthcare refer to the use of various technologies to create visual representations of internal body structures, organs, and tissues. These images are used for diagnostic purposes and treatment planning.",
             "faq2": "What types of imaging technologies are considered state-of-the-art?",
@@ -239,7 +387,7 @@
             "faq3": "What are the benefits of state-of-the-art imaging services?",
             "ans3": "The benefits include enhanced diagnostic accuracy, early detection of medical conditions, precise treatment planning, minimally invasive procedures, reduced patient discomfort, and improved patient outcomes."
         },
-        "oncology":{
+        "oncology": {
             "faq1": "What services does your oncology care package include?",
             "ans1": "Our oncology care package includes a range of services such as pain management, nutritional guidance, and medication therapy management. We provide comprehensive support tailored to your specific needs during cancer treatment.",
             "faq2": "How does your package ensure patient comfort during cancer treatment?",
@@ -247,7 +395,7 @@
             "faq3": "What makes your oncology care package stand out from others?",
             "ans3": "Our care package stands out for its holistic approach, combining medical expertise with compassionate support. We focus not only on treating the disease but also on enhancing overall well-being, ensuring that patients feel supported and cared for throughout their cancer journey."
         },
-        "tracheostomy":{
+        "tracheostomy": {
             "faq1": "What services does your specialized tracheostomy care team offer?",
             "ans1": "Our specialized tracheostomy care team provides comprehensive services including tracheostomy management, respiratory care, and personalized support to meet your specific needs and promote optimal health and recovery.",
             "faq2": "How does your team ensure personalized attention for individuals with a tracheostomy?",
@@ -255,7 +403,7 @@
             "faq3": "What sets your specialized tracheostomy care apart from other providers?",
             "ans3": "Our care stands out for its specialized focus on tracheostomy management and respiratory care. We combine medical expertise with compassionate support, ensuring that individuals with a tracheostomy receive the attention and resources necessary for optimal health and recovery."
         },
-        "postHospitalization":{
+        "postHospitalization": {
             "faq1": "What services are included in your post-hospitalization care packages?",
             "ans1": "Our post-hospitalization care packages offer a range of services including medical monitoring, medication management, rehabilitation support, and personalized care planning. We ensure a seamless transition from hospital to home, tailored to your unique needs for a smooth recovery.",
             "faq2": "How does your care team support individuals transitioning from hospital to home?",
@@ -263,7 +411,7 @@
             "faq3": "What makes your post-hospitalization care packages stand out in terms of personalized care?",
             "ans3": "Our packages stand out for their personalized approach, taking into account each individual's specific needs and requirements. We collaborate with healthcare professionals and family members to create a customized care plan that ensures a smooth and successful recovery at home."
         },
-        "strokeCare":{
+        "strokeCare": {
             "faq1": "What does your personalized stroke care package entail?",
             "ans1": "Our personalized stroke care package includes dedicated rehabilitation programs designed to improve mobility, speech, cognitive function, and overall quality of life. We tailor our services to each individual's unique needs to promote independence and functionality post-stroke.",
             "faq2": "How does your rehabilitation program support individuals in regaining independence after a stroke?",
@@ -271,7 +419,7 @@
             "faq3": "What sets your stroke care packages apart in terms of promoting thriving post-stroke?",
             "ans3": "Our care packages stand out for their personalized approach and dedicated focus on rehabilitation. We combine expert therapies with compassionate support, empowering individuals to achieve their goals and thrive in their journey towards recovery after a stroke."
         },
-        "swallowing":{
+        "swallowing": {
             "faq1": "What specialized rehabilitation sessions are included in your program for swallowing difficulties and speech challenges post-stroke?",
             "ans1": "Our program includes specialized rehabilitation sessions focused on improving swallowing function and speech abilities post-stroke. Our experienced therapists use targeted exercises and techniques to help individuals regain these essential functions.",
             "faq2": "How do your experienced therapists work with individuals to overcome swallowing difficulties and speech challenges post-stroke?",
