@@ -17,22 +17,25 @@ const BlogHome = () => {
         </div>
         <div className='flex flex-col md:flex-row gap-10 py-10'>
         <BlogCard
-                img="hero2"
+                img="service5"
                 name={t("blogCard1.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard1.para1")}
                 date="28 May, 2024"
+                link = "/hospital-acquired-muscle-weakness"
               />
-         <BlogCard
+        <BlogCard
                 img="hero1"
                 name={t("blogCard2.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard2.para1")}
                 date="28 May, 2024"
+                link = "/malnutrition"
               />
         <BlogCard
                 img="hero3"
                 name={t("blogCard3.name")}
-                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam aliquid fugiat aut necessitatibus, adipisci aperiam assumenda sequi enim, dicta, libero reiciendis hic explicabo eos optio corporis exercitationem accusamus illo!"
+                desc={t("blogCard3.para1")}
                 date="28 May, 2024"
+                link = "/stroke-care-blog"
               />
         </div>
         <div className='flex justify-center mt-2 mb-12'>
