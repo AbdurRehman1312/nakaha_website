@@ -148,25 +148,25 @@ const Footer = () => {
           <h2 className="text-2xl text-slate-100 font-bold">
             {t("footer.col4.blogs")}
           </h2>
-          <Link to="/blogs" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link to="/hospital-acquired-muscle-weakness" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col4.blog1")}
           </Link>
-          <Link to="/blogs" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
-            {t("footer.col4.blog2")}
+          <Link to="/malnutrition" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+            {t("blogCard2.name")}
           </Link>
-          <Link to="/blogs" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link to="/medication-management" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col4.blog3")}
           </Link>
-          <Link to="/blogs" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link to="/stroke-care-blog" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col4.blog4")}
           </Link>
-          <Link to="/blogs" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link to="/oncology-blog" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col4.blog5")}
           </Link>
-          <Link to="/blogs" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link to="/nursing-at-home" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col4.blog6")}
           </Link>
-          <Link to="/blogs" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
+          <Link to="/redflag" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col4.blog7")}
           </Link>
         </div>
