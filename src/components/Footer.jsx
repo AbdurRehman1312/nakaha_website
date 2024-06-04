@@ -8,30 +8,30 @@ const Footer = () => {
     window.scrollTo({ top: 0 });
   };
   const socialLinks = [
+    // {
+    //   link: "https://twitter.com",
+    //   icon: images.twitter, // Assuming images.twitter is the correct path for the Twitter logo.
+    // },
     {
-      link: "https://twitter.com",
-      icon: images.twitter, // Assuming images.twitter is the correct path for the Twitter logo.
-    },
-    {
-      link: "https://facebook.com",
+      link: "https://web.facebook.com/NakahaClinic",
       icon: images.fb, // Adjust accordingly if the property names in the images object are different.
     },
     {
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/company/nakaha/",
       icon: images.linkedin,
     },
     {
-      link: "https://youtube.com",
+      link: "https://www.youtube.com/@Nakaha-fl8um",
       icon: images.yt,
     },
-    {
-      link: "https://tiktok.com",
-      icon: images.tiktok,
-    },
-    {
-      link: "https://glassdoor.com",
-      icon: images.glassdoor,
-    },
+    // {
+    //   link: "https://tiktok.com",
+    //   icon: images.tiktok,
+    // },
+    // {
+    //   link: "https://glassdoor.com",
+    //   icon: images.glassdoor,
+    // },
   ];
   return (
     <footer className="bg-[#5d81ad] rounded-tl-[50px] lg:rounded-tl-[80px]">
@@ -178,6 +178,7 @@ const Footer = () => {
               key={link.link}
               href={link.link}
               className="w-[40px] h-[40px] rounded-full border border-white flex justify-center items-center hover:opacity-70"
+              target="_blank"
             >
               <img src={link.icon} alt={link.icon} className="w-[50%]" />
             </a>
