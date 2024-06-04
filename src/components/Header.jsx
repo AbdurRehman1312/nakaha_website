@@ -44,7 +44,7 @@ const Header = () => {
           </div>
           <div className="flex items-center justify-self-end gap-3">
             <img src={images.phone} alt="" className="w-8 h-8" />
-            <p className="text-white">+201141153153, +201141171517</p>
+            <p className="text-white">+201141153153 <br /> +201141171517</p>
           </div>
         </div>
       </div>
