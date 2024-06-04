@@ -38,7 +38,7 @@ const Footer = () => {
       <div className=" container flex flex-wrap gap-10 m-auto px-2 py-10">
         <div className="lg:w-[25%] md:w-[50%] w-full flex flex-col gap-3 flex-1">
           <img src={images.logo} alt="" className="w-[50%]" />
-          <h2 className="text-slate-100 text-[14px]">898-0908-983</h2>
+          <h2 className="text-slate-100 text-[14px]">+201141153153 <br />+201141171517</h2>
           <Link to="/book-now" className="text-slate-100 text-[14px]" onClick={scrollToTop}>
             {t("footer.col1.book")}
           </Link>
