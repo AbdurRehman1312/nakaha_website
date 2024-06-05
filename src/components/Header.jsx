@@ -108,7 +108,7 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <a href="https://calendly.com/abdurrehmansaifi784" target="_blank" rel="noopener noreferrer">
+                  <a href="https://calendar.google.com/calendar/u/6?cid=bGF0ZWVmbWFobWVkQGdtYWlsLmNvbQ" target="_blank" rel="noopener noreferrer">
                     <Button
                       name={t("header.contactus")}
                       style="bg-third text-primary border-primary hover:bg-primary hover:text-white hover:border text-lg"
